@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<node>
+    <baseurl>
+        <testurl>http://10.168.103.151/web/#/login</testurl>
+    </baseurl>
+
+    <login>
+        <!--不同权限分配不同首页      -->
+        <username>admin</username>
+        <password>111111</password>
+        <epxect>声像情报融合分析平台</epxect>
+    </login>
+
+    <!--点击录音视频库后可查看"外网资源"-->
+    <yinshipin>
+        <username>admin</username>
+        <password>111111</password>
+        <epxect>外网资源</epxect>
+    </yinshipin>
+
+    <!--点击到知名人物库-->
+    <renwuku>
+        <username>admin</username>
+        <password>111111</password>
+        <epxect>知名人物</epxect>
+    </renwuku>
+
+    <videoLable>
+        <username>admin</username>
+        <password>111111</password>
+        <epxect></epxect>
+    </videoLable>
+
+
+</node>

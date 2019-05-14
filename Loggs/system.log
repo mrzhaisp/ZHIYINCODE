@@ -1,0 +1,143 @@
+2019-05-14 10:30:47,154-logTest-INFO-Loggin:This classname is  videoLable
+2019-05-14 10:31:04,067-logTest-INFO-Loggin:open browser
+2019-05-14 10:31:04,254-logTest-INFO-Loggin:关闭浏览器
+2019-05-14 10:35:06,020-logTest-INFO-Loggin:打开浏览器，输入了账户名密码进入主页
+2019-05-14 10:35:10,271-logTest-INFO-Loggin:获取第一个视频下的name
+2019-05-14 10:35:12,372-logTest-INFO-Loggin:拿到第一条视频的title----> Jeh-Johnson-on-Border-Crisis
+2019-05-14 10:35:14,446-logTest-INFO-Loggin:关闭浏览器
+2019-05-14 10:39:28,454-logTest-INFO-Loggin:This classname is videoLable
+2019-05-14 10:39:47,801-logTest-INFO-Loggin:关闭浏览器
+2019-05-14 10:43:06,134-logTest-INFO-Loggin:This classname is videoLable
+2019-05-14 10:43:21,761-logTest-INFO-Loggin:关闭浏览器
+2019-05-14 10:55:23,515-logTest-INFO-Loggin:This classname is videoLable
+2019-05-14 10:55:40,362-logTest-INFO-Loggin:打开浏览器
+2019-05-14 10:55:42,471-logTest-INFO-Loggin:关闭浏览器
+2019-05-14 10:57:58,774-logTest-INFO-Loggin:This classname is videoLable
+2019-05-14 10:58:14,360-logTest-INFO-Loggin:打开浏览器
+2019-05-14 10:58:16,421-logTest-INFO-Loggin:输出title为 央企
+2019-05-14 10:58:18,602-logTest-INFO-Loggin:关闭浏览器
+2019-05-14 11:08:17,960-logTest-INFO-Loggin:This classname is videoLable
+2019-05-14 11:08:33,855-logTest-INFO-Loggin:打开浏览器
+2019-05-14 11:08:33,857-logTest-INFO-Loggin:第一个测试案例
+2019-05-14 11:08:35,917-logTest-INFO-Loggin:输出title为 央企
+2019-05-14 11:08:49,228-logTest-INFO-Loggin:得到视频标签为None
+2019-05-14 11:08:49,229-logTest-INFO-Loggin:'央企' != None
+2019-05-14 11:08:49,302-logTest-INFO-Loggin:关闭浏览器
+2019-05-14 11:11:28,914-logTest-INFO-Loggin:This classname is videoLable
+2019-05-14 11:11:44,815-logTest-INFO-Loggin:打开浏览器
+2019-05-14 11:11:44,816-logTest-INFO-Loggin:第一个测试案例
+2019-05-14 11:11:46,902-logTest-INFO-Loggin:输出title为 央企
+2019-05-14 11:12:00,149-logTest-INFO-Loggin:得到视频标签为None
+2019-05-14 11:12:00,151-logTest-INFO-Loggin:'央企' != None
+2019-05-14 11:12:00,222-logTest-INFO-Loggin:关闭浏览器
+2019-05-14 11:13:01,748-logTest-INFO-Loggin:This classname is videoLable
+2019-05-14 11:13:16,931-logTest-INFO-Loggin:打开浏览器
+2019-05-14 11:13:16,933-logTest-INFO-Loggin:第一个测试案例
+2019-05-14 11:13:18,975-logTest-INFO-Loggin:输出title为 央企
+2019-05-14 11:13:32,229-logTest-INFO-Loggin:得到视频标签为None
+2019-05-14 11:13:32,290-logTest-INFO-Loggin:关闭浏览器
+2019-05-14 11:14:39,820-logTest-INFO-Loggin:This classname is videoLable
+2019-05-14 11:14:55,357-logTest-INFO-Loggin:打开浏览器
+2019-05-14 11:14:55,359-logTest-INFO-Loggin:第一个测试案例
+2019-05-14 11:14:57,385-logTest-INFO-Loggin:输出title为 央企
+2019-05-14 11:15:02,608-logTest-INFO-Loggin:得到视频标签为央企
+2019-05-14 11:15:02,673-logTest-INFO-Loggin:关闭浏览器
+2019-05-14 11:22:48,148-logTest-INFO-Loggin:This classname is videoLable
+2019-05-14 11:23:04,223-logTest-INFO-Loggin:打开浏览器
+2019-05-14 11:23:06,360-logTest-INFO-Loggin:拿到国资委的标签为国资委
+2019-05-14 11:23:06,518-logTest-INFO-Loggin:关闭浏览器
+2019-05-14 11:26:42,695-logTest-INFO-Loggin:This classname is videoLable
+2019-05-14 11:26:58,085-logTest-INFO-Loggin:打开浏览器
+2019-05-14 11:27:00,226-logTest-INFO-Loggin:拿到国资委的标签为国资委
+2019-05-14 11:27:04,437-logTest-INFO-Loggin:得到国资委视频标签为国资委
+2019-05-14 11:27:04,493-logTest-INFO-Loggin:关闭浏览器
+2019-05-14 11:31:14,164-logTest-INFO-Loggin:This classname is video_yangqi_fir_title 
+2019-05-14 11:31:26,523-logTest-INFO-Loggin:This classname is video_yangqi_fir_title 
+2019-05-14 11:31:34,061-logTest-INFO-Loggin:登录进系统
+2019-05-14 11:31:38,062-logTest-INFO-Loggin:准备点击央企视频栏目
+2019-05-14 11:31:42,250-logTest-INFO-Loggin:拿到央企下第一条视频信息的title Jeh-Johnson-on-Border-Crisis
+2019-05-14 11:31:42,250-logTest-INFO-Loggin:进入系统，根据第一条视频的title去点击第一条视频
+2019-05-14 11:31:44,268-logTest-INFO-Loggin:点击视频详情
+2019-05-14 11:31:44,519-logTest-INFO-Loggin:拿到视频详情的title----》Jeh-Johnson-on-Border-Crisis
+2019-05-14 11:31:44,548-logTest-INFO-Loggin:This classname is videoLable
+2019-05-14 11:31:49,314-logTest-INFO-Loggin:This classname is login_action_header
+2019-05-14 11:32:01,392-logTest-INFO-Loggin:测试案例admin登录首页为声像情报融合分析平台
+2019-05-14 11:32:09,164-logTest-INFO-Loggin:This classname is login_audio_video
+2019-05-14 11:32:22,651-logTest-INFO-Loggin:测试案例为点击到音视频库后页面含有外网资源
+2019-05-14 11:32:30,554-logTest-INFO-Loggin:This classname is login_people_lib
+2019-05-14 11:33:01,689-logTest-INFO-Loggin:打开浏览器
+2019-05-14 11:33:01,690-logTest-INFO-Loggin:第一个测试案例,拿到央企标签和该栏目下的视频标签
+2019-05-14 11:33:03,753-logTest-INFO-Loggin:输出title为 央企
+2019-05-14 11:33:09,033-logTest-INFO-Loggin:得到视频标签为央企
+2019-05-14 11:33:09,034-logTest-INFO-Loggin:第二条测试用例,拿到国资委标签和该栏目下的视频标签
+2019-05-14 11:33:11,137-logTest-INFO-Loggin:拿到国资委的标签为国资委
+2019-05-14 11:33:15,315-logTest-INFO-Loggin:得到国资委视频标签为国资委
+2019-05-14 11:33:17,620-logTest-INFO-Loggin:关闭浏览器
+2019-05-14 11:41:23,432-logTest-INFO-Loggin:This classname is video_yangqi_fir_title 
+2019-05-14 11:41:37,373-logTest-INFO-Loggin:This classname is video_yangqi_fir_title 
+2019-05-14 11:41:44,804-logTest-INFO-Loggin:登录进系统
+2019-05-14 11:41:48,807-logTest-INFO-Loggin:准备点击央企视频栏目
+2019-05-14 11:41:53,073-logTest-INFO-Loggin:拿到央企下第一条视频信息的title Jeh-Johnson-on-Border-Crisis
+2019-05-14 11:41:53,074-logTest-INFO-Loggin:进入系统，根据第一条视频的title去点击第一条视频
+2019-05-14 11:41:55,104-logTest-INFO-Loggin:点击视频详情
+2019-05-14 11:42:05,462-logTest-INFO-Loggin:'NoneType' object has no attribute 'split'
+2019-05-14 11:42:10,316-logTest-INFO-Loggin:This classname is video_yangqi_fir_title 
+2019-05-14 11:42:23,693-logTest-INFO-Loggin:This classname is video_yangqi_fir_title 
+2019-05-14 11:42:31,031-logTest-INFO-Loggin:登录进系统
+2019-05-14 11:42:35,032-logTest-INFO-Loggin:准备点击央企视频栏目
+2019-05-14 11:42:35,055-logTest-INFO-Loggin:Message: no such element: Unable to locate element: {"method":"xpath","selector":".//body/descendant::a[12]"}
+  (Session info: chrome=68.0.3440.75)
+  (Driver info: chromedriver=2.39.562718 (9a2698cba08cf5a471a29d30c8b3e12becabb0e9),platform=Windows NT 6.1.7601 SP1 x86_64)
+
+2019-05-14 11:42:35,055-logTest-INFO-Loggin:Message: no such element: Unable to locate element: {"method":"xpath","selector":".//body/descendant::a[12]"}
+  (Session info: chrome=68.0.3440.75)
+  (Driver info: chromedriver=2.39.562718 (9a2698cba08cf5a471a29d30c8b3e12becabb0e9),platform=Windows NT 6.1.7601 SP1 x86_64)
+
+2019-05-14 11:42:43,003-logTest-INFO-Loggin:This classname is video_yangqi_fir_title 
+2019-05-14 11:42:56,183-logTest-INFO-Loggin:This classname is video_yangqi_fir_title 
+2019-05-14 11:43:03,510-logTest-INFO-Loggin:登录进系统
+2019-05-14 11:43:07,510-logTest-INFO-Loggin:准备点击央企视频栏目
+2019-05-14 11:43:07,544-logTest-INFO-Loggin:Message: no such element: Unable to locate element: {"method":"xpath","selector":".//body/descendant::a[12]"}
+  (Session info: chrome=68.0.3440.75)
+  (Driver info: chromedriver=2.39.562718 (9a2698cba08cf5a471a29d30c8b3e12becabb0e9),platform=Windows NT 6.1.7601 SP1 x86_64)
+
+2019-05-14 11:43:07,545-logTest-INFO-Loggin:Message: no such element: Unable to locate element: {"method":"xpath","selector":".//body/descendant::a[12]"}
+  (Session info: chrome=68.0.3440.75)
+  (Driver info: chromedriver=2.39.562718 (9a2698cba08cf5a471a29d30c8b3e12becabb0e9),platform=Windows NT 6.1.7601 SP1 x86_64)
+
+2019-05-14 11:43:07,548-logTest-INFO-Loggin:This classname is videoLable
+2019-05-14 11:43:25,501-logTest-INFO-Loggin:打开浏览器
+2019-05-14 11:43:25,503-logTest-INFO-Loggin:第一个测试案例,拿到央企标签和该栏目下的视频标签
+2019-05-14 11:43:27,530-logTest-INFO-Loggin:输出title为 央企
+2019-05-14 11:43:32,774-logTest-INFO-Loggin:得到视频标签为央企
+2019-05-14 11:43:32,774-logTest-INFO-Loggin:第二条测试用例,拿到国资委标签和该栏目下的视频标签
+2019-05-14 11:43:34,868-logTest-INFO-Loggin:拿到国资委的标签为国资委
+2019-05-14 11:43:38,974-logTest-INFO-Loggin:得到国资委视频标签为国资委
+2019-05-14 11:43:39,046-logTest-INFO-Loggin:关闭浏览器
+2019-05-14 11:50:45,050-logTest-INFO-Loggin:This classname is videoLable
+2019-05-14 11:50:54,963-logTest-INFO-Loggin:This classname is login_action_header
+2019-05-14 11:51:04,433-logTest-INFO-Loggin:测试案例admin登录首页为声像情报融合分析平台
+2019-05-14 11:51:16,965-logTest-INFO-Loggin:This classname is login_audio_video
+2019-05-14 11:51:27,890-logTest-INFO-Loggin:测试案例为点击到音视频库后页面含有外网资源
+2019-05-14 11:51:40,254-logTest-INFO-Loggin:This classname is login_people_lib
+2019-05-14 11:52:11,247-logTest-INFO-Loggin:打开浏览器
+2019-05-14 11:52:11,248-logTest-INFO-Loggin:第一个测试案例,拿到央企标签和该栏目下的视频标签
+2019-05-14 11:52:13,283-logTest-INFO-Loggin:输出title为 央企
+2019-05-14 11:52:18,513-logTest-INFO-Loggin:得到视频标签为央企
+2019-05-14 11:52:18,514-logTest-INFO-Loggin:第二条测试用例,拿到国资委标签和该栏目下的视频标签
+2019-05-14 11:52:20,590-logTest-INFO-Loggin:拿到国资委的标签为国资委
+2019-05-14 11:52:24,698-logTest-INFO-Loggin:得到国资委视频标签为国资委
+2019-05-14 11:52:24,769-logTest-INFO-Loggin:关闭浏览器
+2019-05-14 11:58:09,726-logTest-INFO-Loggin:This classname is login_action_header
+2019-05-14 11:58:20,139-logTest-INFO-Loggin:测试案例admin登录首页为声像情报融合分析平台
+2019-05-14 11:58:32,627-logTest-INFO-Loggin:This classname is login_audio_video
+2019-05-14 11:58:42,386-logTest-INFO-Loggin:测试案例为点击到音视频库后页面含有外网资源
+2019-05-14 11:58:54,864-logTest-INFO-Loggin:This classname is login_people_lib
+2019-05-14 11:59:25,846-logTest-INFO-Loggin:打开浏览器
+2019-05-14 11:59:25,848-logTest-INFO-Loggin:第一个测试案例,拿到央企标签和该栏目下的视频标签
+2019-05-14 11:59:27,876-logTest-INFO-Loggin:输出title为 央企
+2019-05-14 11:59:33,117-logTest-INFO-Loggin:得到视频标签为央企
+2019-05-14 11:59:33,118-logTest-INFO-Loggin:第二条测试用例,拿到国资委标签和该栏目下的视频标签
+2019-05-14 11:59:35,232-logTest-INFO-Loggin:拿到国资委的标签为国资委
+2019-05-14 11:59:39,345-logTest-INFO-Loggin:得到国资委视频标签为国资委
+2019-05-14 11:59:39,419-logTest-INFO-Loggin:关闭浏览器
