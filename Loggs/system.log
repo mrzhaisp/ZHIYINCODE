@@ -141,3 +141,16 @@
 2019-05-14 11:59:35,232-logTest-INFO-Loggin:拿到国资委的标签为国资委
 2019-05-14 11:59:39,345-logTest-INFO-Loggin:得到国资委视频标签为国资委
 2019-05-14 11:59:39,419-logTest-INFO-Loggin:关闭浏览器
+2019-05-14 14:16:55,230-logTest-INFO-Loggin:This classname is login_action_header
+2019-05-14 14:17:05,408-logTest-INFO-Loggin:测试案例admin登录首页为声像情报融合分析平台
+2019-05-14 14:17:17,881-logTest-INFO-Loggin:This classname is login_audio_video
+2019-05-14 14:17:27,544-logTest-INFO-Loggin:测试案例为点击到音视频库后页面含有外网资源
+2019-05-14 14:17:39,950-logTest-INFO-Loggin:This classname is login_people_lib
+2019-05-14 14:18:11,292-logTest-INFO-Loggin:打开浏览器
+2019-05-14 14:18:11,293-logTest-INFO-Loggin:第一个测试案例,拿到央企标签和该栏目下的视频标签
+2019-05-14 14:18:13,341-logTest-INFO-Loggin:输出title为 央企
+2019-05-14 14:18:18,591-logTest-INFO-Loggin:得到视频标签为央企
+2019-05-14 14:18:18,591-logTest-INFO-Loggin:第二条测试用例,拿到国资委标签和该栏目下的视频标签
+2019-05-14 14:18:20,660-logTest-INFO-Loggin:拿到国资委的标签为国资委
+2019-05-14 14:18:24,779-logTest-INFO-Loggin:得到国资委视频标签为国资委
+2019-05-14 14:18:24,957-logTest-INFO-Loggin:关闭浏览器
