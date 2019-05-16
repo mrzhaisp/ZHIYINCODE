@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d3438caa-c3fa-456e-b335-c98715e5c7dd" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Commonlib/SendEmail.py" afterPath="$PROJECT_DIR$/Commonlib/SendEmail.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Runallcase/Runallcase.py" afterPath="$PROJECT_DIR$/Runallcase/Runallcase.py" />
     </list>
     <ignored path="ZHIYINCODE.iws" />
@@ -45,8 +46,8 @@
       <file leaf-file-name="Commonlib.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Commonlib/Commonlib.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="10" column="16" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
+            <state relative-caret-position="612">
+              <caret line="66" column="0" selection-start-line="66" selection-start-column="0" selection-end-line="67" selection-end-column="0" />
               <folding>
                 <element signature="e#35#45#0" expanded="true" />
               </folding>
@@ -54,11 +55,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Runallcase.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="SendEmail.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Commonlib/SendEmail.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="490">
+              <caret line="62" column="0" selection-start-line="62" selection-start-column="0" selection-end-line="63" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Runallcase.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Runallcase/Runallcase.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="782">
-              <caret line="27" column="39" selection-start-line="27" selection-start-column="39" selection-end-line="27" selection-end-column="39" />
+            <state relative-caret-position="-68">
+              <caret line="8" column="0" selection-start-line="8" selection-start-column="2" selection-end-line="8" selection-end-column="17" />
               <folding />
             </state>
           </provider>
@@ -142,11 +153,11 @@
         <option value="$PROJECT_DIR$/TestSuit/Ctest_03_people_lib.py" />
         <option value="$PROJECT_DIR$/TestSuit/Dtest_04_video_lable.py" />
         <option value="$PROJECT_DIR$/TestSuit/Atest_01_login_action.py" />
-        <option value="$PROJECT_DIR$/Commonlib/SendEmail.py" />
         <option value="$PROJECT_DIR$/Commonlib/Commonlib.py" />
         <option value="$PROJECT_DIR$/Public/Public.py" />
         <option value="$PROJECT_DIR$/Bussniss/Bussniss.py" />
         <option value="$PROJECT_DIR$/Runallcase/Runallcase.py" />
+        <option value="$PROJECT_DIR$/Commonlib/SendEmail.py" />
       </list>
     </option>
   </component>
@@ -1025,13 +1036,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Commonlib/SendEmail.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1530">
-          <caret line="49" column="28" selection-start-line="49" selection-start-column="28" selection-end-line="49" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Public/Public.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="476">
@@ -1085,20 +1089,28 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Runallcase/Runallcase.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-68">
+          <caret line="8" column="0" selection-start-line="8" selection-start-column="2" selection-end-line="8" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Commonlib/Commonlib.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="10" column="16" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
+        <state relative-caret-position="612">
+          <caret line="66" column="0" selection-start-line="66" selection-start-column="0" selection-end-line="67" selection-end-column="0" />
           <folding>
             <element signature="e#35#45#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Runallcase/Runallcase.py">
+    <entry file="file://$PROJECT_DIR$/Commonlib/SendEmail.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="782">
-          <caret line="27" column="39" selection-start-line="27" selection-start-column="39" selection-end-line="27" selection-end-column="39" />
+        <state relative-caret-position="490">
+          <caret line="62" column="0" selection-start-line="62" selection-start-column="0" selection-end-line="63" selection-end-column="0" />
           <folding />
         </state>
       </provider>

@@ -64,5 +64,5 @@ def sentmail(file_new):
     smtp.quit()
     print ('email has send out !')
 
-sentmail("../Reporter/151test_UI_report.htm")
+# sentmail("../Reporter/151test_UI_report.htm")
 

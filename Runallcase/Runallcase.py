@@ -6,7 +6,7 @@ import time
 from Commonlib.CreateReporter import CreateReporter
 from Commonlib.SendEmail import SendEmail
 c = CreateReporter()
-s = SendEmail()
+# s = SendEmail()
 
 class Tsuit(unittest.TestCase):
     def testT(self):
