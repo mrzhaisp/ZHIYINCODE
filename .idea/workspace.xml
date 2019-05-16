@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d3438caa-c3fa-456e-b335-c98715e5c7dd" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Bussniss/Bussniss.py" afterPath="$PROJECT_DIR$/Bussniss/Bussniss.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Runallcase/Runallcase.py" afterPath="$PROJECT_DIR$/Runallcase/Runallcase.py" />
     </list>
     <ignored path="ZHIYINCODE.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -46,7 +45,7 @@
       <file leaf-file-name="Commonlib.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Commonlib/Commonlib.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
+            <state relative-caret-position="340">
               <caret line="10" column="16" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
               <folding>
                 <element signature="e#35#45#0" expanded="true" />
@@ -55,14 +54,12 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Bussniss.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Bussniss/Bussniss.py">
+      <file leaf-file-name="Runallcase.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Runallcase/Runallcase.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="403">
-              <caret line="12" column="32" selection-start-line="12" selection-start-column="32" selection-end-line="12" selection-end-column="32" />
-              <folding>
-                <element signature="e#46#56#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="782">
+              <caret line="27" column="39" selection-start-line="27" selection-start-column="39" selection-end-line="27" selection-end-column="39" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -145,11 +142,11 @@
         <option value="$PROJECT_DIR$/TestSuit/Ctest_03_people_lib.py" />
         <option value="$PROJECT_DIR$/TestSuit/Dtest_04_video_lable.py" />
         <option value="$PROJECT_DIR$/TestSuit/Atest_01_login_action.py" />
-        <option value="$PROJECT_DIR$/Runallcase/Runallcase.py" />
         <option value="$PROJECT_DIR$/Commonlib/SendEmail.py" />
         <option value="$PROJECT_DIR$/Commonlib/Commonlib.py" />
         <option value="$PROJECT_DIR$/Public/Public.py" />
         <option value="$PROJECT_DIR$/Bussniss/Bussniss.py" />
+        <option value="$PROJECT_DIR$/Runallcase/Runallcase.py" />
       </list>
     </option>
   </component>
@@ -1021,13 +1018,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Runallcase/Runallcase.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="544">
-          <caret line="20" column="31" selection-start-line="20" selection-start-column="31" selection-end-line="20" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Commonlib/CreateReporter.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
@@ -1046,16 +1036,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="476">
           <caret line="14" column="27" selection-start-line="14" selection-start-column="27" selection-end-line="14" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Commonlib/Commonlib.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="10" column="16" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
-          <folding>
-            <element signature="e#35#45#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1097,11 +1077,29 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Bussniss/Bussniss.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="403">
-          <caret line="12" column="32" selection-start-line="12" selection-start-column="32" selection-end-line="12" selection-end-column="32" />
+        <state relative-caret-position="306">
+          <caret line="9" column="20" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
           <folding>
             <element signature="e#46#56#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Commonlib/Commonlib.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="10" column="16" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
+          <folding>
+            <element signature="e#35#45#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Runallcase/Runallcase.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="782">
+          <caret line="27" column="39" selection-start-line="27" selection-start-column="39" selection-end-line="27" selection-end-column="39" />
+          <folding />
         </state>
       </provider>
     </entry>
