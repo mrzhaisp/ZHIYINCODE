@@ -1,17 +1,18 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 from Public.Public import PubLic
+from Commonlib.Commonlib import Commonlib
 from Commonlib.Readxml import Readxml
 from Commonlib.Loggin import LoggIn
 import unittest
-import warnings
+c = Commonlib()
 lo = LoggIn()
 r = Readxml()
 class videoLable(unittest.TestCase):
     """拿到所有栏目下的子视频右上角标签，和栏目标签作对比"""
     @classmethod
     def setUpClass(cls):
-        warnings.simplefilter("ignore", ResourceWarning)
+        c.solveWaring()
         pu = PubLic()
         cls.pu = pu
         cls.pu.login_pub(r.readxml("videoLable","username"),

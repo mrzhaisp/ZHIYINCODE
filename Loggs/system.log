@@ -154,3 +154,63 @@
 2019-05-14 14:18:20,660-logTest-INFO-Loggin:拿到国资委的标签为国资委
 2019-05-14 14:18:24,779-logTest-INFO-Loggin:得到国资委视频标签为国资委
 2019-05-14 14:18:24,957-logTest-INFO-Loggin:关闭浏览器
+2019-05-16 09:47:26,758-logTest-INFO-Loggin:This classname is login_action_header
+2019-05-16 09:47:36,599-logTest-INFO-Loggin:测试案例admin登录首页为声像情报融合分析平台
+2019-05-16 09:51:50,177-logTest-INFO-Loggin:This classname is login_action_header
+2019-05-16 09:52:01,236-logTest-INFO-Loggin:测试案例admin登录首页为声像情报融合分析平台
+2019-05-16 10:19:17,770-logTest-INFO-Loggin:This classname is login_action_header
+2019-05-16 10:19:30,732-logTest-INFO-Loggin:测试案例admin登录首页为声像情报融合分析平台
+2019-05-16 11:36:00,689-logTest-INFO-Loggin:this class name is LoginTatle
+2019-05-16 11:36:16,788-logTest-INFO-Loggin:LoginTatle open broswer
+2019-05-16 11:36:26,977-logTest-INFO-Loggin:输出title为 None
+2019-05-16 11:36:31,350-logTest-INFO-Loggin:关闭浏览器
+2019-05-16 11:37:53,508-logTest-INFO-Loggin:this class name is LoginTatle
+2019-05-16 11:38:08,833-logTest-INFO-Loggin:LoginTatle open broswer
+2019-05-16 11:38:11,153-logTest-INFO-Loggin:关闭浏览器
+2019-05-16 12:00:13,684-logTest-INFO-Loggin:This classname is login_action_header
+2019-05-16 12:00:26,541-logTest-INFO-Loggin:测试案例admin登录首页为声像情报融合分析平台
+2019-05-16 12:00:26,542-logTest-INFO-Loggin:关闭浏览器，案例执行完成
+2019-05-16 12:01:37,082-logTest-INFO-Loggin:This classname is login_action_header
+2019-05-16 12:01:48,764-logTest-INFO-Loggin:测试案例admin登录首页为声像情报融合分析平台
+2019-05-16 12:01:48,766-logTest-INFO-Loggin:关闭浏览器，案例执行完成
+2019-05-16 12:35:03,064-logTest-INFO-Loggin:This classname is login_action_header
+2019-05-16 12:35:25,009-logTest-INFO-Loggin:Message: chrome not reachable
+  (Session info: chrome=68.0.3440.75)
+  (Driver info: chromedriver=2.39.562718 (9a2698cba08cf5a471a29d30c8b3e12becabb0e9),platform=Windows NT 6.1.7601 SP1 x86_64)
+
+2019-05-16 12:35:25,011-logTest-INFO-Loggin:关闭浏览器，案例执行完成
+2019-05-16 13:27:48,656-logTest-INFO-Loggin:This classname is login_action_header
+2019-05-16 13:27:59,274-logTest-INFO-Loggin:测试案例admin登录首页为声像情报融合分析平台
+2019-05-16 13:27:59,278-logTest-INFO-Loggin:关闭浏览器，案例执行完成
+2019-05-16 13:30:55,580-logTest-INFO-Loggin:This classname is login_action_header
+2019-05-16 13:30:56,391-logTest-INFO-Loggin:Message: unknown error: cannot determine loading status
+from unknown error: cannot determine loading status
+from disconnected: received Inspector.detached event
+  (Session info: chrome=68.0.3440.75)
+  (Driver info: chromedriver=2.39.562718 (9a2698cba08cf5a471a29d30c8b3e12becabb0e9),platform=Windows NT 6.1.7601 SP1 x86_64)
+
+2019-05-16 13:30:56,541-logTest-INFO-Loggin:关闭浏览器，案例执行完成
+2019-05-16 13:34:07,158-logTest-INFO-Loggin:This classname is login_action_header
+2019-05-16 13:34:18,415-logTest-INFO-Loggin:测试案例admin登录首页为声像情报融合分析平台
+2019-05-16 13:34:18,416-logTest-INFO-Loggin:关闭浏览器，案例执行完成
+2019-05-16 13:34:50,000-logTest-INFO-Loggin:This classname is login_audio_video
+2019-05-16 13:34:59,764-logTest-INFO-Loggin:测试案例为点击到音视频库后页面含有外网资源
+2019-05-16 13:35:23,925-logTest-INFO-Loggin:This classname is login_people_lib
+2019-05-16 13:36:10,031-logTest-INFO-Loggin:打开浏览器
+2019-05-16 13:36:10,032-logTest-INFO-Loggin:第一个测试案例,拿到央企标签和该栏目下的视频标签
+2019-05-16 13:36:12,119-logTest-INFO-Loggin:输出title为 央企
+2019-05-16 13:36:17,389-logTest-INFO-Loggin:得到视频标签为央企
+2019-05-16 13:36:17,389-logTest-INFO-Loggin:第二条测试用例,拿到国资委标签和该栏目下的视频标签
+2019-05-16 13:36:19,489-logTest-INFO-Loggin:拿到国资委的标签为国资委
+2019-05-16 13:36:23,610-logTest-INFO-Loggin:得到国资委视频标签为国资委
+2019-05-16 13:36:23,685-logTest-INFO-Loggin:关闭浏览器
+2019-05-16 13:47:07,907-logTest-INFO-Loggin:This classname is login_action_header
+2019-05-16 13:47:19,523-logTest-INFO-Loggin:测试案例admin登录首页为声像情报融合分析平台
+2019-05-16 13:47:59,003-logTest-INFO-Loggin:This classname is login_action_header
+2019-05-16 13:48:10,207-logTest-INFO-Loggin:测试案例admin登录首页为声像情报融合分析平台
+2019-05-16 13:48:10,208-logTest-INFO-Loggin:This classname is login_action_header
+2019-05-16 13:48:17,664-logTest-INFO-Loggin:测试案例admin登录首页为声像情报融合分析平台
+2019-05-16 14:01:00,095-logTest-INFO-Loggin:This classname is login_action_header
+2019-05-16 14:01:12,194-logTest-INFO-Loggin:测试案例admin登录首页为声像情报融合分析平台
+2019-05-16 14:02:00,756-logTest-INFO-Loggin:This classname is login_action_header
+2019-05-16 14:02:12,251-logTest-INFO-Loggin:测试案例admin登录首页为声像情报融合分析平台
