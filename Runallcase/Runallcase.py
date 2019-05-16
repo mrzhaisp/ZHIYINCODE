@@ -4,7 +4,7 @@ import unittest
 import sys
 import time
 from Commonlib.CreateReporter import CreateReporter
-from Commonlib.SendEmail import SendEmail
+# from Commonlib.SendEmail import SendEmail
 c = CreateReporter()
 # s = SendEmail()
 

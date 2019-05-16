@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d3438caa-c3fa-456e-b335-c98715e5c7dd" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Commonlib/SendEmail.py" afterPath="$PROJECT_DIR$/Commonlib/SendEmail.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Runallcase/Runallcase.py" afterPath="$PROJECT_DIR$/Runallcase/Runallcase.py" />
     </list>
     <ignored path="ZHIYINCODE.iws" />
@@ -55,22 +54,24 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SendEmail.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="SendEmail.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Commonlib/SendEmail.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="490">
+            <state relative-caret-position="1408">
               <caret line="62" column="0" selection-start-line="62" selection-start-column="0" selection-end-line="63" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Runallcase.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Runallcase.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Runallcase/Runallcase.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-68">
-              <caret line="8" column="0" selection-start-line="8" selection-start-column="2" selection-end-line="8" selection-end-column="17" />
-              <folding />
+            <state relative-caret-position="266">
+              <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+              <folding>
+                <element signature="e#46#61#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -156,8 +157,8 @@
         <option value="$PROJECT_DIR$/Commonlib/Commonlib.py" />
         <option value="$PROJECT_DIR$/Public/Public.py" />
         <option value="$PROJECT_DIR$/Bussniss/Bussniss.py" />
-        <option value="$PROJECT_DIR$/Runallcase/Runallcase.py" />
         <option value="$PROJECT_DIR$/Commonlib/SendEmail.py" />
+        <option value="$PROJECT_DIR$/Runallcase/Runallcase.py" />
       </list>
     </option>
   </component>
@@ -1089,14 +1090,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Runallcase/Runallcase.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-68">
-          <caret line="8" column="0" selection-start-line="8" selection-start-column="2" selection-end-line="8" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Commonlib/Commonlib.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="612">
@@ -1109,9 +1102,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Commonlib/SendEmail.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="490">
+        <state relative-caret-position="1408">
           <caret line="62" column="0" selection-start-line="62" selection-start-column="0" selection-end-line="63" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Runallcase/Runallcase.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+          <folding>
+            <element signature="e#46#61#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
