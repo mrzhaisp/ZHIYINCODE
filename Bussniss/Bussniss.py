@@ -10,7 +10,7 @@ from Commonlib.Commonlib import Commonlib
 from Public.Public import PubLic
 import sys
 class Bussniss:
-    u"""所有的测试业务都在这里"""
+    u"""所有的测试业务都在这里-----》拉取所有的业务"""
     def __init__(self):
         self.pu = PubLic()
 
@@ -116,12 +116,6 @@ class Bussniss:
 # b = Bussniss()
 # b.video_yangqi_fir_in_title("admin","111111")
 #
-
-
-
-
-
-
 
 
 
