@@ -33,17 +33,23 @@ class Bussniss:
             #非input标签，第三方工具制作上传文件的路径
             os.system(r"C:\Users\Test\upload.exe %s"%filepath)
             self.p.pub.waite(2)
-            self.p.pub.activeEvent(".//*[contains(text(),'外网资源')]")
+
+            #选择内网自编，还是外网资源
+            self.p.pub.activeEvent(".//*[contains(text(),'%s')]"%self.r.readxml("shiplaiyuan","waiwang"))
             self.p.pub.waite(1)
             self.p.pub.activeEvent(".//*[contains(text(),'频道分类')]/following-sibling::div/descendant::input")
             self.p.pub.waite(1)
-            self.p.pub.activeEvent(".//*[contains(text(),'电子对抗')]")
-            self.l.Logg("选择自编网站的央企")
+
+            #这里选择内网下的（只能选择国资委和央企），，，，外网下的频道分类
+            self.p.pub.activeEvent(".//*[contains(text(),'%s')]"%self.r.readxml("pindaofenlei","sev"))
             self.p.pub.activeEvent(".//*[contains(text(),'语种')]/following-sibling::div/descendant::input")
             self.l.Logg("选择语言")
             self.p.pub.waite(1)
-            self.p.pub.activeEvent(".//*[contains(text(),'英语')]")
+
+            #选择各种语言
+            self.p.pub.activeEvent(".//*[contains(text(),'%s')]"%self.r.readxml("langeue","eyu"))
             self.p.pub.waite(1)
+
             self.l.Logg("清除制作日期，重新输入当期日期")
             self.p.pub.clearKeys(".//*[contains(text(),'制作日期')]/following-sibling::div/descendant::input")
             self.p.pub.waite(1)
