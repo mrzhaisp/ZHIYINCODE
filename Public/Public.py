@@ -13,7 +13,7 @@ class PubLic:
         self.pub = Commonlib()
 
     def login_ui_pub(self,base_url,username,password):
-        """封装UI登录模块"""
+        """前端UI登录模块"""
         self.pub.openBrowser(base_url)
         self.pub.waite(1)
         self.pub.clearKeys(".//*[@class='el-input el-input-group el-input-group--prepend'][1]/input")
@@ -28,6 +28,7 @@ class PubLic:
         self.pub.waite(2)
 
     def login_load_video(self,base_url,username,password):
+        """后台上传视频登录"""
         self.pub.openBrowser(base_url)
         self.pub.waite(1)
         self.pub.clearKeys(".//*[@class='el-input el-input-group el-input-group--prepend'][1]/input")

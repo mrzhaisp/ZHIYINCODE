@@ -155,9 +155,9 @@ class Commonlib():
 
     def dissMissAlter(self):
         """处理弹框"""
-        alsk = self.dr.switch_to_alert()
-        alsk.accept()
-        # self.dr.switch_to.alert().dismiss()
+        alsm = self.dr.switch_to.alert()
+        # alsk = self.dr.switch_to_alert()
+        alsm.dismiss()
 
     def promptAlter(self):
         Alterprompt = self.dr.switchTo().alter
