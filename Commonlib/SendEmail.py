@@ -6,19 +6,21 @@ from email.mime.text import MIMEText
 from email.mime.multipart import MIMEMultipart
 
 sender = 'test_zhai_sp@126.com'
-receiver = '2686852189@qq.com'
+receiver = ['2686852189@qq.com','754559200@qq.com','mr_zhai_sp@126.com']
 smtpserver = 'smtp.126.com'
 username = 'test_zhai_sp@126.com'
 #注意 这里是授权码 不是密码
 password = '2017shixiaoyu'
 mail_title = '主题：声像情报融合分析平台UI自动化测试报告'
+
+
 class SendEmail():
     def sendEmail(self,filepath):
 
         # 创建一个带附件的实例
         message = MIMEMultipart()
         message['From'] = sender
-        message['To'] = receiver
+        message['To'] = ','.join(receiver)
         message['Subject'] = Header(mail_title, 'utf-8')
 
         # 邮件正文内容
@@ -49,7 +51,8 @@ class SendEmail():
         print("邮件发送成功！！！")
         smtpObj.quit()
 
-
+s = SendEmail()
+s.sendEmail("../Reporter/151test_UI_report.htm")
 
 
 
