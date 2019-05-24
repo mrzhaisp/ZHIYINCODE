@@ -9,7 +9,7 @@ import HTMLTestRunnerNew
 class CreateReporter:
     """制作测试报告，把执行的结果传进来，discover方法执行的用例结果传进去"""
     def create_report(self,mysuit):
-        filepath="../Reporter/151test_UI_report.htm"
+        filepath="../Reporter/151_selenium_UI_report.htm"
         with open(filepath,"wb") as f:
             HTMLTestRunnerNew.HTMLTestRunner(
                 stream=f,

@@ -26,12 +26,10 @@
 # print(name)
 # print(Tel)
 
-import  random
-videosourse = ["人工智能","电子对抗","下一代网络","智能制造","区块链","其他"]
-print(random.choice(videosourse))
-
-
-
+# import  random
+# videosourse = ["人工智能","电子对抗","下一代网络","智能制造","区块链","其他"]
+# print(random.choice(videosourse))
+import time
 
 
 

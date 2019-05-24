@@ -18,7 +18,7 @@ class Tsuit(unittest.TestCase):
 
         #把测试案例传给reporter
         c.create_report(discover)
-        s.sendEmail("../Reporter/151test_UI_report.htm")
+        s.sendEmail("../Reporter/151_selenium_UI_report.htm")
         for i in range(100):
             k = i + 1
             str = '/' * i + '' * (100 - k)

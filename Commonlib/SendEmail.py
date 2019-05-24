@@ -6,7 +6,7 @@ from email.mime.text import MIMEText
 from email.mime.multipart import MIMEMultipart
 
 sender = 'test_zhai_sp@126.com'
-receiver = ['2686852189@qq.com','754559200@qq.com','mr_zhai_sp@126.com']
+receiver = ['test_zhai_sp@126.com','2686852189@qq.com',]
 smtpserver = 'smtp.126.com'
 username = 'test_zhai_sp@126.com'
 #注意 这里是授权码 不是密码
@@ -41,7 +41,7 @@ class SendEmail():
         # 构造附件3（附件为HTML格式的网页）
         att3 = MIMEText(open(filepath, 'rb').read(), 'base64', 'utf-8')
         att3["Content-Type"] = 'application/octet-stream'
-        att3["Content-Disposition"] = 'attachment; filename="report_test.html"'
+        att3["Content-Disposition"] = 'attachment; filename="151_selenium_UI_report.htm"'
         message.attach(att3)
 
         smtpObj = smtplib.SMTP_SSL()  # 注意：如果遇到发送失败的情况（提示远程主机拒接连接），这里要使用SMTP_SSL方法
@@ -50,9 +50,9 @@ class SendEmail():
         smtpObj.sendmail(sender, receiver, message.as_string())
         print("邮件发送成功！！！")
         smtpObj.quit()
-
-s = SendEmail()
-s.sendEmail("../Reporter/151test_UI_report.htm")
+#
+# s = SendEmail()
+# s.sendEmail("../Reporter/151_selenium_UI_report.htm")
 
 
 
