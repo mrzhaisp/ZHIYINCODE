@@ -112,6 +112,3 @@ class Bussniss:
 
         except Exception as e:
             raise e
-# b = Bussniss()
-# b.LoadVideoType("http://10.168.103.151/admin/#/","admin","111111",r"C:\Users\admin\Desktop\upload.au3")
-#
