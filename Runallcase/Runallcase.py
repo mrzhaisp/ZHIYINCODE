@@ -4,9 +4,9 @@ import unittest
 import sys
 import time
 from Commonlib.CreateReporter import CreateReporter
-# from Commonlib.SendEmail import SendEmail
+from Commonlib.SendEmail import SendEmail
 c = CreateReporter()
-# s = SendEmail()
+s = SendEmail()
 
 class Tsuit(unittest.TestCase):
     def testT(self):
@@ -18,7 +18,7 @@ class Tsuit(unittest.TestCase):
 
         #把测试案例传给reporter
         c.create_report(discover)
-        # s.sendmail("../Reporter/151test_UI_report.htm")
+        s.sendEmail("../Reporter/151test_UI_report.htm")
         for i in range(100):
             k = i + 1
             str = '/' * i + '' * (100 - k)

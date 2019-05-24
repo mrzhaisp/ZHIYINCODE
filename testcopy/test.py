@@ -20,11 +20,15 @@
 # mp = Alert()
 # mp.alert_html()
 #
+#
+# name = input("输入姓名")
+# Tel = input("输入电话")
+# print(name)
+# print(Tel)
 
-name = input("输入姓名")
-Tel = input("输入电话")
-print(name)
-print(Tel)
+import  random
+videosourse = ["人工智能","电子对抗","下一代网络","智能制造","区块链","其他"]
+print(random.choice(videosourse))
 
 
 

@@ -159,5 +159,35 @@ class Commonlib():
         # alsk = self.dr.switch_to_alert()
         alsm.dismiss()
 
-    def promptAlter(self):
-        Alterprompt = self.dr.switchTo().alter
+    def getAlterText(self):
+        """拿到弹框的txt文字"""
+        t = self.dr.switch_to_alert()
+        # print(t.text)
+
+
+    def uiLogIn(self,myurl,username,password):
+        """前端UI显示"""
+        self.openBrowser(myurl)
+        self.clearKeys(".//*[@class='el-input el-input-group el-input-group--prepend'][1]/input")
+        self.waite(1)
+        self.inputKeys(".//*[@class='el-input el-input-group el-input-group--prepend'][1]/input",username)
+        self.waite(1)
+        self.clearKeys(".//*[@class='el-input el-input-group el-input-group--prepend'][2]/input")
+        self.waite(1)
+        self.inputKeys(".//*[@class='el-input el-input-group el-input-group--prepend'][2]/input",password)
+        self.waite(1)
+        self.activeEvent(".//*[contains(text(),'立即登录')]")
+
+    def loadVideoLogIn(self,myurl,username,password):
+        """后台上传视频"""
+        self.openBrowser(myurl)
+        self.waite(1)
+        self.clearKeys(".//*[@class='el-input el-input-group el-input-group--prepend'][1]/input")
+        self.waite(1)
+        self.inputKeys((".//*[@class='el-input el-input-group el-input-group--prepend'][1]/input"),username)
+        self.waite(1)
+        self.clearKeys(".//body/descendant::input[2]")
+        self.waite(1)
+        self.inputKeys(".//body/descendant::input[2]",password)
+        self.waite(1)
+        self.activeEvent(".//*[contains(text(),'立即登录')]")

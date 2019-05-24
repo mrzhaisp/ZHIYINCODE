@@ -3,7 +3,6 @@
 from xml.dom import minidom
 
 class Readxml:
-
     def readxml(self,oneNode,twonode):
 
         """找到本地的xml文件"""
@@ -14,10 +13,6 @@ class Readxml:
         #找到节点下的子节点里的值
         secondnode = firstnode.getElementsByTagName(twonode)[0].firstChild.data
         return secondnode
-
-# if __name__ == '__main__':
-#     r = Readxml()
-#     print(r.readxml("login","password"))
 
 
 

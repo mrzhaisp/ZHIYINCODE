@@ -1,5 +1,6 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <node>
+
     <baseurl>
         <!--前端显示页面和后台上传视频页面-->
         <uiUrl>http://10.168.103.151/web/#/login</uiUrl>
@@ -10,7 +11,6 @@
         <!--不同权限分配不同首页      -->
         <username>admin</username>
         <password>111111</password>
-        <epxect>声像情报融合分析平台</epxect>
     </login>
 
     <!--后台上传视频登录账号密码-->
@@ -19,44 +19,15 @@
         <password>111111</password>
     </loadvideologin>
 
+    <!--非要求视频格式-->
+    <videotype>
+        <typetxt>"C:\Users\admin\Desktop\upload.au3"</typetxt>
+        <alterText>上传的视频必须是 MP4/AVI/MPG/WMV/3GP/MOV/ASF/ASX/FLV 格式 !</alterText>
+    </videotype>
+
     <!--上传视频的路径-->
     <videofile>
-        <a>"C:\Users\Test\上传视频\2019--0521--Autoit-selenium-test.mp4"</a>
-        <b></b>
-        <c></c>
+        <d>"Security Awareness from the Management Perspective.mp4"</d>
     </videofile>
-
-    <!--视频来源-->
-    <shiplaiyuan>
-        <neiwwang>内网自编</neiwwang>
-        <waiwang>外网资源</waiwang>
-    </shiplaiyuan>
-
-    <!--频道分类-->
-    <pindaofenlei>1>
-        <one>央企</one>
-        <two>国资委</two>
-        <thr>人工智能</thr>
-        <fou>电子对抗</fou>
-        <fiv>下一代网络</fiv>
-        <six>智能制造</six>
-        <sev>区块链</sev>
-        <eig>其它</eig>
-    </pindaofenlei>
-
-    <!--语种-->
-    <langeue>
-        <chainese>中文</chainese>
-        <engls>英语</engls>
-        <janpa>日语</janpa>
-        <eyu>俄语</eyu>
-        <frn>法语</frn>
-        <deyu>德语</deyu>
-        <yuenan>越南语</yuenan>
-        <yidali>意大利</yidali>
-        <spa>西班牙语</spa>
-    </langeue>
-
-
 
 </node>

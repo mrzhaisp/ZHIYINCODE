@@ -1,68 +1,59 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
-
-
-# import time
-# import smtplib
-# from email.mime.text import MIMEText
-# from email.mime.multipart import MIMEMultipart
-# from email.mime.image import MIMEImage
-#
-# class SendEmail:
-#
-#     def sendmail(self,file_new):
-#         mail_from = "test_zhai_sp@126.com"
-#         main_to = "2686852189@qq.com"
-#         f = open(file_new,'rb')
-#         mail_body = f.read()
-#         f.close()
-#         msg = MIMEText(mail_body,_subtype='html',_charset='utf-8')
-#         msg['Subject'] = u'151Test声像情报融合分析平台UI自动化测试报告'
-#         msg['data'] = time.strftime('%a, %d %b %Y %H:%M:%S %z')
-#         smtp = smtplib.SMTP()
-#         smtp.connect("smtp.126.com")
-#         smtp.login("test_zhai_sp@126.com","2017shixiaoyu")
-#         smtp.sendmail(mail_from,main_to,msg.as_string())
-#         smtp.quit()
-#         print("邮件发送完毕")
-#
-# if __name__ == '__main__':
-#     s = SendEmail()
-#     s.sendmail("../Reporter/151test_UI_report.htm")
-#
-# test_zhai_sp@126.com
-# shixiaoyu2017
-# 授权码  2017shixiaoyu
-
-
-import os ,time,datetime
 import smtplib
+from email.header import Header
 from email.mime.text import MIMEText
 from email.mime.multipart import MIMEMultipart
-from email.mime.image import MIMEImage
 
-def sentmail(file_new):
-    #发信邮箱
-    mail_from='test_zhai_sp@126.com'
-    #收信邮箱
-    mail_to='2686852189@qq.com'
-    #定义正文
-    f = open(file_new, 'rb')
-    mail_body = f.read()
-    f.close()
-    msg=MIMEText(mail_body,_subtype='html',_charset='utf-8')
-    #定义标题
-    msg['Subject']=u"私有云测试报告"
-    #定义发送时间（不定义的可能有的邮件客户端会不显示发送时间）
-    msg['date']=time.strftime('%a, %d %b %Y %H:%M:%S %z')
-    smtp=smtplib.SMTP()
-    #连接 SMTP 服务器，此处用的126的 SMTP 服务器
-    smtp.connect('smtp.126.com')
-    #这里是授权码 不是密码  不是密码。。。
-    smtp.login('test_zhai_sp@126.com','2017shixiaoyu')
-    smtp.sendmail(mail_from,mail_to,msg.as_string())
-    smtp.quit()
-    print ('email has send out !')
+sender = 'test_zhai_sp@126.com'
+receiver = '2686852189@qq.com'
+smtpserver = 'smtp.126.com'
+username = 'test_zhai_sp@126.com'
+#注意 这里是授权码 不是密码
+password = '2017shixiaoyu'
+mail_title = '主题：声像情报融合分析平台UI自动化测试报告'
+class SendEmail():
+    def sendEmail(self,filepath):
 
-# sentmail("../Reporter/151test_UI_report.htm")
+        # 创建一个带附件的实例
+        message = MIMEMultipart()
+        message['From'] = sender
+        message['To'] = receiver
+        message['Subject'] = Header(mail_title, 'utf-8')
+
+        # 邮件正文内容
+        message.attach(MIMEText('声像情报融合分析平台UI自动化测试报告', 'plain', 'utf-8'))
+
+        # # 构造附件1（附件为TXT格式的文本）
+        # att1 = MIMEText(open('../Reporter/151test_UI_report.htm', 'rb').read(), 'base64', 'utf-8')
+        # att1["Content-Type"] = 'application/octet-stream'
+        # att1["Content-Disposition"] = 'attachment; filename="151test_UI_report.htm"'
+        # message.attach(att1)
+        #
+        # # 构造附件2（附件为JPG格式的图片）
+        # att2 = MIMEText(open('123.jpg', 'rb').read(), 'base64', 'utf-8')
+        # att2["Content-Type"] = 'application/octet-stream'
+        # att2["Content-Disposition"] = 'attachment; filename="123.jpg"'
+        # message.attach(att2)
+
+        # 构造附件3（附件为HTML格式的网页）
+        att3 = MIMEText(open(filepath, 'rb').read(), 'base64', 'utf-8')
+        att3["Content-Type"] = 'application/octet-stream'
+        att3["Content-Disposition"] = 'attachment; filename="report_test.html"'
+        message.attach(att3)
+
+        smtpObj = smtplib.SMTP_SSL()  # 注意：如果遇到发送失败的情况（提示远程主机拒接连接），这里要使用SMTP_SSL方法
+        smtpObj.connect(smtpserver)
+        smtpObj.login(username, password)
+        smtpObj.sendmail(sender, receiver, message.as_string())
+        print("邮件发送成功！！！")
+        smtpObj.quit()
+
+
+
+
+
+
+
+
 

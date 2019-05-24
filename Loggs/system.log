@@ -110,3 +110,149 @@
 2019-05-21 15:02:48,607-logTest-INFO-Loggin:清除制作日期，重新输入当期日期
 2019-05-21 15:02:50,968-logTest-INFO-Loggin:清除上传日期，重新输入当期日期
 2019-05-21 15:02:52,204-logTest-INFO-Loggin:输入内容摘要
+2019-05-22 08:54:04,690-logTest-INFO-Loggin:登录视频上传网站
+2019-05-22 08:54:16,617-logTest-INFO-Loggin:上传视频文件
+2019-05-22 08:54:26,253-logTest-INFO-Loggin:选择语言
+2019-05-22 08:54:28,370-logTest-INFO-Loggin:清除制作日期，重新输入当期日期
+2019-05-22 08:54:30,650-logTest-INFO-Loggin:清除上传日期，重新输入当期日期
+2019-05-22 08:54:31,908-logTest-INFO-Loggin:输入内容摘要
+2019-05-22 09:05:18,257-logTest-INFO-Loggin:登录视频上传网站
+2019-05-22 09:05:31,221-logTest-INFO-Loggin:上传视频文件
+2019-05-22 09:05:40,365-logTest-INFO-Loggin:选择语言
+2019-05-22 09:05:42,493-logTest-INFO-Loggin:清除制作日期，重新输入当期日期
+2019-05-22 09:05:44,804-logTest-INFO-Loggin:清除上传日期，重新输入当期日期
+2019-05-22 09:05:46,028-logTest-INFO-Loggin:输入内容摘要
+2019-05-22 09:08:45,265-logTest-INFO-Loggin:登录视频上传网站
+2019-05-22 09:08:57,905-logTest-INFO-Loggin:上传视频文件
+2019-05-22 09:09:06,281-logTest-INFO-Loggin:选择语言
+2019-05-22 09:09:08,390-logTest-INFO-Loggin:清除制作日期，重新输入当期日期
+2019-05-22 09:09:10,650-logTest-INFO-Loggin:清除上传日期，重新输入当期日期
+2019-05-22 09:09:11,864-logTest-INFO-Loggin:输入内容摘要
+2019-05-22 09:32:17,241-logTest-INFO-Loggin:登录视频上传网站
+2019-05-22 09:32:30,916-logTest-INFO-Loggin:上传视频文件
+2019-05-22 09:32:40,162-logTest-INFO-Loggin:选择语言
+2019-05-22 09:32:42,276-logTest-INFO-Loggin:清除制作日期，重新输入当期日期
+2019-05-22 09:32:44,626-logTest-INFO-Loggin:清除上传日期，重新输入当期日期
+2019-05-22 09:32:45,833-logTest-INFO-Loggin:输入内容摘要
+2019-05-22 09:35:03,507-logTest-INFO-Loggin:登录视频上传网站
+2019-05-22 09:35:15,883-logTest-INFO-Loggin:上传视频文件
+2019-05-22 09:35:24,089-logTest-INFO-Loggin:选择语言
+2019-05-22 09:35:26,203-logTest-INFO-Loggin:清除制作日期，重新输入当期日期
+2019-05-22 09:35:28,521-logTest-INFO-Loggin:清除上传日期，重新输入当期日期
+2019-05-22 09:35:29,709-logTest-INFO-Loggin:输入内容摘要
+2019-05-23 11:46:45,947-logTest-INFO-Loggin:登录视频上传网站
+2019-05-23 11:46:58,236-logTest-INFO-Loggin:上传视频文件
+2019-05-23 11:47:07,527-logTest-INFO-Loggin:选择语言
+2019-05-23 11:47:09,632-logTest-INFO-Loggin:清除制作日期，重新输入当期日期
+2019-05-23 11:47:11,994-logTest-INFO-Loggin:清除上传日期，重新输入当期日期
+2019-05-23 11:47:13,245-logTest-INFO-Loggin:输入内容摘要
+2019-05-23 13:35:34,291-logTest-INFO-Loggin:登录视频上传网站
+2019-05-23 13:35:42,815-logTest-INFO-Loggin:Message: no such element: Unable to locate element: {"method":"xpath","selector":".//*[contains(text(),'导入视频')]"}
+  (Session info: chrome=68.0.3440.75)
+  (Driver info: chromedriver=2.39.562718 (9a2698cba08cf5a471a29d30c8b3e12becabb0e9),platform=Windows NT 6.1.7601 SP1 x86_64)
+
+2019-05-23 13:38:38,825-logTest-INFO-Loggin:登录视频上传网站
+2019-05-23 13:38:51,690-logTest-INFO-Loggin:上传视频文件
+2019-05-23 13:52:29,241-logTest-INFO-Loggin:登录视频上传网站
+2019-05-23 13:52:43,078-logTest-INFO-Loggin:上传视频文件
+2019-05-23 13:52:48,970-logTest-INFO-Loggin:Message: no such alert
+  (Session info: chrome=68.0.3440.75)
+  (Driver info: chromedriver=2.39.562718 (9a2698cba08cf5a471a29d30c8b3e12becabb0e9),platform=Windows NT 6.1.7601 SP1 x86_64)
+
+2019-05-23 13:57:05,631-logTest-INFO-Loggin:登录视频上传网站
+2019-05-23 13:57:19,365-logTest-INFO-Loggin:上传视频文件
+2019-05-23 14:14:09,131-logTest-INFO-Loggin:Message: no such element: Unable to locate element: {"method":"xpath","selector":".//*[contains(text(),'导入视频')]"}
+  (Session info: chrome=68.0.3440.75)
+  (Driver info: chromedriver=2.39.562718 (9a2698cba08cf5a471a29d30c8b3e12becabb0e9),platform=Windows NT 6.1.7601 SP1 x86_64)
+
+2019-05-23 14:19:09,572-logTest-INFO-Loggin:上传视频文件
+2019-05-23 14:19:15,886-logTest-INFO-Loggin:拿到警告Alter弹框上文字
+2019-05-23 14:20:30,902-logTest-INFO-Loggin:上传视频文件
+2019-05-23 14:20:36,678-logTest-INFO-Loggin:拿到警告Alter弹框上文字
+2019-05-23 14:22:29,002-logTest-INFO-Loggin:上传视频文件
+2019-05-23 14:22:34,765-logTest-INFO-Loggin:拿到警告Alter弹框上文字
+2019-05-23 14:24:13,099-logTest-INFO-Loggin:上传视频文件
+2019-05-23 14:24:19,103-logTest-INFO-Loggin:拿到警告Alter弹框上文字
+2019-05-23 14:25:23,145-logTest-INFO-Loggin:上传视频文件
+2019-05-23 14:25:28,905-logTest-INFO-Loggin:拿到警告Alter弹框上文字
+2019-05-23 14:25:46,681-logTest-INFO-Loggin:上传视频文件
+2019-05-23 14:25:52,539-logTest-INFO-Loggin:拿到警告Alter弹框上文字
+2019-05-23 14:29:12,097-logTest-INFO-Loggin:上传视频文件
+2019-05-23 14:29:17,867-logTest-INFO-Loggin:拿到警告Alter弹框上文字
+2019-05-23 14:29:53,356-logTest-INFO-Loggin:上传视频文件
+2019-05-23 14:29:59,127-logTest-INFO-Loggin:拿到警告Alter弹框上文字
+2019-05-23 14:30:33,908-logTest-INFO-Loggin:上传视频文件
+2019-05-23 14:30:39,785-logTest-INFO-Loggin:拿到警告Alter弹框上文字
+2019-05-23 14:35:03,463-logTest-INFO-Loggin:'Bussniss' object has no attribute 'p'
+2019-05-23 14:36:25,531-logTest-INFO-Loggin:上传视频文件
+2019-05-23 14:36:31,693-logTest-INFO-Loggin:'Bussniss' object has no attribute 'p'
+2019-05-23 14:37:12,176-logTest-INFO-Loggin:上传视频文件
+2019-05-23 14:37:17,926-logTest-INFO-Loggin:拿到警告Alter弹框上文字
+2019-05-23 14:49:49,491-logTest-INFO-Loggin:上传视频文件
+2019-05-23 14:49:55,370-logTest-INFO-Loggin:拿到警告Alter弹框上文字
+2019-05-23 14:51:33,035-logTest-INFO-Loggin:上传视频文件
+2019-05-23 14:51:38,865-logTest-INFO-Loggin:拿到警告Alter弹框上文字
+2019-05-23 14:54:36,906-logTest-INFO-Loggin:上传视频文件
+2019-05-23 14:54:42,849-logTest-INFO-Loggin:拿到警告Alter弹框上文字
+2019-05-23 14:56:14,019-logTest-INFO-Loggin:上传视频文件
+2019-05-23 14:56:19,840-logTest-INFO-Loggin:拿到警告Alter弹框上文字
+2019-05-23 15:41:39,115-logTest-INFO-Loggin:上传视频文件
+2019-05-23 15:41:45,275-logTest-INFO-Loggin:拿到警告Alter弹框上文字
+2019-05-23 15:46:14,250-logTest-INFO-Loggin:上传视频文件
+2019-05-23 15:46:20,360-logTest-INFO-Loggin:拿到警告Alter弹框上文字
+2019-05-23 15:48:22,876-logTest-INFO-Loggin:上传视频文件
+2019-05-23 15:48:28,755-logTest-INFO-Loggin:拿到警告Alter弹框上文字
+2019-05-23 15:50:08,602-logTest-INFO-Loggin:上传视频文件
+2019-05-23 15:50:14,993-logTest-INFO-Loggin:拿到警告Alter弹框上文字
+2019-05-23 15:57:00,259-logTest-INFO-Loggin:上传视频文件
+2019-05-23 15:57:06,346-logTest-INFO-Loggin:拿到警告Alter弹框上文字
+2019-05-23 15:58:14,068-logTest-INFO-Loggin:上传视频文件
+2019-05-23 15:58:20,850-logTest-INFO-Loggin:拿到警告Alter弹框上文字
+2019-05-23 16:10:23,358-logTest-INFO-Loggin:登录视频上传网站
+2019-05-23 16:13:10,268-logTest-INFO-Loggin:登录视频上传网站
+2019-05-23 16:13:21,510-logTest-INFO-Loggin:上传视频文件
+2019-05-23 16:14:06,970-logTest-INFO-Loggin:登录视频上传网站
+2019-05-23 16:14:18,085-logTest-INFO-Loggin:上传视频文件
+2019-05-23 16:14:25,161-logTest-INFO-Loggin:选择语言
+2019-05-23 16:14:27,294-logTest-INFO-Loggin:清除制作日期，重新输入当期日期
+2019-05-23 16:14:29,634-logTest-INFO-Loggin:清除上传日期，重新输入当期日期
+2019-05-23 16:14:30,880-logTest-INFO-Loggin:输入内容摘要
+2019-05-23 16:29:59,463-logTest-INFO-Loggin:登录视频上传网站
+2019-05-23 16:30:12,534-logTest-INFO-Loggin:上传视频文件
+2019-05-23 16:30:20,183-logTest-INFO-Loggin:选择语言
+2019-05-23 16:30:22,352-logTest-INFO-Loggin:清除制作日期，重新输入当期日期
+2019-05-23 16:30:24,650-logTest-INFO-Loggin:清除上传日期，重新输入当期日期
+2019-05-23 16:30:25,849-logTest-INFO-Loggin:输入内容摘要
+2019-05-23 16:33:27,996-logTest-INFO-Loggin:登录视频上传网站
+2019-05-23 16:33:39,741-logTest-INFO-Loggin:上传视频文件
+2019-05-23 16:33:47,105-logTest-INFO-Loggin:选择语言
+2019-05-23 16:33:49,276-logTest-INFO-Loggin:清除制作日期，重新输入当期日期
+2019-05-23 16:33:51,594-logTest-INFO-Loggin:清除上传日期，重新输入当期日期
+2019-05-23 16:33:52,825-logTest-INFO-Loggin:输入内容摘要
+2019-05-23 16:52:53,671-logTest-INFO-Loggin:登录视频上传网站
+2019-05-23 16:53:04,907-logTest-INFO-Loggin:上传视频文件
+2019-05-23 16:54:05,932-logTest-INFO-Loggin:登录视频上传网站
+2019-05-23 17:18:50,717-logTest-INFO-Loggin:登录视频上传网站
+2019-05-24 11:21:53,110-logTest-INFO-Loggin:登录视频上传网站
+2019-05-24 11:23:36,346-logTest-INFO-Loggin:登录视频上传网站
+2019-05-24 11:24:10,987-logTest-INFO-Loggin:登录视频上传网站
+2019-05-24 11:25:42,964-logTest-INFO-Loggin:Message: no such element: Unable to locate element: {"method":"xpath","selector":".//*[contains(text(),'导入视频')]"}
+  (Session info: chrome=68.0.3440.75)
+  (Driver info: chromedriver=2.39.562718 (9a2698cba08cf5a471a29d30c8b3e12becabb0e9),platform=Windows NT 6.1.7601 SP1 x86_64)
+
+2019-05-24 11:27:44,714-logTest-INFO-Loggin:Message: no such element: Unable to locate element: {"method":"xpath","selector":".//*[contains(text(),'导入视频')]"}
+  (Session info: chrome=68.0.3440.75)
+  (Driver info: chromedriver=2.39.562718 (9a2698cba08cf5a471a29d30c8b3e12becabb0e9),platform=Windows NT 6.1.7601 SP1 x86_64)
+
+2019-05-24 11:31:13,858-logTest-INFO-Loggin:上传视频文件
+2019-05-24 11:31:22,315-logTest-INFO-Loggin:拿到警告Alter弹框上文字
+2019-05-24 11:34:54,524-logTest-INFO-Loggin:上传视频文件
+2019-05-24 11:35:00,301-logTest-INFO-Loggin:拿到警告Alter弹框上文字
+2019-05-24 11:37:04,843-logTest-INFO-Loggin:上传视频文件
+2019-05-24 11:37:10,666-logTest-INFO-Loggin:拿到警告Alter弹框上文字
+2019-05-24 11:40:15,086-logTest-INFO-Loggin:上传视频文件
+2019-05-24 11:40:20,860-logTest-INFO-Loggin:拿到警告Alter弹框上文字
+2019-05-24 12:01:39,460-logTest-INFO-Loggin:上传视频文件
+2019-05-24 12:01:45,239-logTest-INFO-Loggin:拿到警告Alter弹框上文字
+2019-05-24 12:38:23,807-logTest-INFO-Loggin:上传视频文件
+2019-05-24 12:38:29,709-logTest-INFO-Loggin:拿到警告Alter弹框上文字
