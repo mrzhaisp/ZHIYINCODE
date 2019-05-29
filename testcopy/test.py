@@ -23,11 +23,19 @@
 # print(name)
 # print(Tel)
 
-# import  random
-# videosourse = ["人工智能","电子对抗","下一代网络","智能制造","区块链","其他"]
-# print(random.choice(videosourse))
-import operator
-list = ['时事热点', '内网自编', '外网资源']
+textlist = ['How to Configure IPv6 Default Route in Packet Tracer CISCO Certification', '汉化名称：How to Configure IPv6 Default Route in Packet Tracer CISCO Certification']
+print(textlist[0])
+# print(a[1])
+acop = textlist[1].split("：")
+print(acop[1])
 
-list2 = ['时事热点', '外网资源','内网自编']
-print(operator.eq(list,list2))
+
+
+
+
+
+
+
+
+
+

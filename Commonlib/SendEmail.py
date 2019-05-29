@@ -6,17 +6,16 @@ from email.mime.text import MIMEText
 from email.mime.multipart import MIMEMultipart
 
 sender = 'test_zhai_sp@126.com'
-receiver = ['test_zhai_sp@126.com','2686852189@qq.com',]
+receiver = ['test_zhai_sp@126.com', '2686852189@qq.com', ]
 smtpserver = 'smtp.126.com'
 username = 'test_zhai_sp@126.com'
-#注意 这里是授权码 不是密码
+# 注意 这里是授权码 不是密码
 password = '2017shixiaoyu'
 mail_title = '主题：声像情报融合分析平台UI自动化测试报告'
 
 
 class SendEmail():
-    def sendEmail(self,filepath):
-
+    def sendEmail(self, filepath):
         # 创建一个带附件的实例
         message = MIMEMultipart()
         message['From'] = sender
@@ -50,13 +49,3 @@ class SendEmail():
         smtpObj.sendmail(sender, receiver, message.as_string())
         print("邮件发送成功！！！")
         smtpObj.quit()
-#
-# s = SendEmail()
-# s.sendEmail("../Reporter/151_selenium_UI_report.htm")
-
-
-
-
-
-
-

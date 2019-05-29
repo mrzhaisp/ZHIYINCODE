@@ -60,3 +60,34 @@
 2019-05-29 14:20:48,645-logTest-INFO-Loggin:拿到音视频下首页的第一个标签为—》时事热点
 2019-05-29 14:20:48,681-logTest-INFO-Loggin:拿到音视频下首页的第二个标签为—》内网自编
 2019-05-29 14:20:48,709-logTest-INFO-Loggin:拿到音视频下首页的第三个标签为—》外网资源
+2019-05-29 15:36:48,430-logTest-INFO-Loggin:This class is shiShiredian
+2019-05-29 15:37:03,708-logTest-INFO-Loggin:拿到时事热点第一条视频
+2019-05-29 15:39:22,494-logTest-INFO-Loggin:This class is shiShiredian
+2019-05-29 15:39:35,382-logTest-INFO-Loggin:拿到时事热点第一条视频
+2019-05-29 15:39:36,495-logTest-INFO-Loggin:点击播放视频
+2019-05-29 15:55:27,596-logTest-INFO-Loggin:This class is shiShiredian
+2019-05-29 15:55:40,702-logTest-INFO-Loggin:local variable 'texttwo' referenced before assignment
+2019-05-29 15:56:17,949-logTest-INFO-Loggin:This class is shiShiredian
+2019-05-29 15:56:30,504-logTest-INFO-Loggin:拿到时事热点第一条视频
+2019-05-29 15:56:32,626-logTest-INFO-Loggin:点击播放视频
+2019-05-29 15:56:34,728-logTest-INFO-Loggin:停止播放视频
+2019-05-29 15:57:00,759-logTest-INFO-Loggin:This class is shiShiredian
+2019-05-29 15:57:15,514-logTest-INFO-Loggin:拿到时事热点第一条视频
+2019-05-29 15:57:17,677-logTest-INFO-Loggin:点击播放视频
+2019-05-29 15:57:22,786-logTest-INFO-Loggin:停止播放视频
+2019-05-29 15:58:48,874-logTest-INFO-Loggin:This class is shiShiredian
+2019-05-29 15:59:01,814-logTest-INFO-Loggin:拿到时事热点第一条视频
+2019-05-29 15:59:03,984-logTest-INFO-Loggin:点击播放视频
+2019-05-29 15:59:09,093-logTest-INFO-Loggin:停止播放视频
+2019-05-29 16:02:46,644-logTest-INFO-Loggin:This class is shiShiredian
+2019-05-29 16:03:00,188-logTest-INFO-Loggin:拿到时事热点第一条视频
+2019-05-29 16:03:02,290-logTest-INFO-Loggin:点击播放视频
+2019-05-29 16:03:07,384-logTest-INFO-Loggin:停止播放视频
+2019-05-29 16:15:42,424-logTest-INFO-Loggin:This class is shiShiredian
+2019-05-29 16:15:55,901-logTest-INFO-Loggin:拿到时事热点第一条视频
+2019-05-29 16:15:58,012-logTest-INFO-Loggin:点击播放视频
+2019-05-29 16:16:03,188-logTest-INFO-Loggin:停止播放视频
+2019-05-29 16:19:40,520-logTest-INFO-Loggin:This class is shiShiredian
+2019-05-29 16:19:53,118-logTest-INFO-Loggin:拿到时事热点第一条视频
+2019-05-29 16:19:55,281-logTest-INFO-Loggin:点击播放视频
+2019-05-29 16:20:00,397-logTest-INFO-Loggin:停止播放视频

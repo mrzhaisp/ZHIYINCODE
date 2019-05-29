@@ -44,5 +44,18 @@
         <epxect>['时事热点', '外网资源','内网自编']</epxect>
     </loginspan>
 
+    <!--时事热点下的视频-->
+    <shishiredina>
+        <uiUrl>http://10.168.103.151/web/#/login</uiUrl>
+        <username>admin</username>
+        <password>111111</password>
+    </shishiredina>
+
+
+    <videotitle>
+        <url>http://10.168.103.151/web/#/login</url>
+        <usname>admin</usname>
+        <password>111111</password>
+    </videotitle>
 
 </node>
