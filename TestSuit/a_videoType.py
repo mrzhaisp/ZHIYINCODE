@@ -4,12 +4,13 @@ from Bussniss.Bussniss import Bussniss
 import unittest
 
 class TestVideoType(unittest.TestCase):
-    """上传限制格式之外的视频格式"""
+
     def setUp(self):
         self.b = Bussniss()
         self.b.c.solveWaring()
 
     def test_001(self):
+        """上传限制格式之外的视频格式"""
         self.assertEqual(
                             self.b.LoadVideoType(
                             self.b.r.readxml("baseurl","loadvideoUrl"),

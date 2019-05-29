@@ -13,6 +13,7 @@ class LogTitle(unittest.TestCase):
         self.b.c.quitBrowser()
 
     def test_001(self):
+        """首页登录title"""
         self.assertEqual(   self.b.getLoginTitle(
                             self.b.r.readxml("baseurl","uiUrl"),
                             self.b.r.readxml("login","username"),
