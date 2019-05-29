@@ -30,4 +30,19 @@
         <d>"Security Awareness from the Management Perspective.mp4"</d>
     </videofile>
 
+    <!--登录后title-->
+    <loginTitle>
+        <epxect>声像情报融合分析平台</epxect>
+    </loginTitle>
+
+
+    <!--登录后页面元素显示-->
+    <loginspan>
+        <url>http://10.168.103.151/web/#/login</url>
+        <username>admin</username>
+        <password>111111</password>
+        <epxect>['时事热点', '外网资源','内网自编']</epxect>
+    </loginspan>
+
+
 </node>

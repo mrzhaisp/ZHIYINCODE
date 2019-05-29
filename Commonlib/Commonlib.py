@@ -164,6 +164,9 @@ class Commonlib():
         t = self.dr.switch_to_alert()
         # print(t.text)
 
+    def getTitle(self):
+        text = self.dr.title
+        return text
 
     def uiLogIn(self,myurl,username,password):
         """前端UI显示"""

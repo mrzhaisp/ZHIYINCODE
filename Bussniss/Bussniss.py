@@ -111,4 +111,45 @@ class Bussniss:
             self.c.activeEvent(".//*[contains(text(),'查看处理过程')]")
 
         except Exception as e:
+            raise
+
+
+    def getLoginTitle(self,base_url,username,password):
+        #web首页login的title
+        try:
+            self.c.uiLogIn(base_url,username,password)
+            texttwo = self.c.getTitle()
+            self.c.waite(2)
+            self.l.Logg("web首页登录后Title为--->%s"%texttwo)
+            return texttwo
+        except Exception as e:
+            self.l.Logg(e)
             raise e
+
+    def AudioVideo(self,base_url,username,password):
+        """音视频库下"""
+        self.l.Logg("This class is AudioVideo")
+        try:
+            self.c.uiLogIn(base_url,username,password)
+            self.c.waite(1)
+            self.l.Logg("点击音视频库")
+            self.c.activeEvent(".//body/div[1]/descendant::a[2]")
+            self.c.waite(1)
+            listtext = []
+
+            shishiredian = self.c.tryText(".//body/div[1]/section/descendant::a[4]")
+            listtext.append(shishiredian)
+            self.l.Logg("拿到音视频下首页的第一个标签为—》%s"%shishiredian)
+
+            neiwangzibian= self.c.tryText(".//body/div[1]/section/descendant::p[1]")
+            listtext.append(neiwangzibian)
+            self.l.Logg("拿到音视频下首页的第二个标签为—》%s"%neiwangzibian)
+
+            waiwang = self.c.tryText(".//body/div[1]/section/descendant::p[2]")
+            listtext.append(waiwang)
+            self.l.Logg("拿到音视频下首页的第三个标签为—》%s" %waiwang )
+
+            # print(type(listtext),listtext)
+            return listtext
+        except Exception as e:
+            self.l.Logg(e)

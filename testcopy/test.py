@@ -1,10 +1,7 @@
 #coding=utf-8
-
-#
 # from Commonlib.Commonlib import Commonlib
 #
 # co = Commonlib()
-#
 # class Alert:
 #
 #     def alert_html(self):
@@ -29,10 +26,8 @@
 # import  random
 # videosourse = ["人工智能","电子对抗","下一代网络","智能制造","区块链","其他"]
 # print(random.choice(videosourse))
-import time
+import operator
+list = ['时事热点', '内网自编', '外网资源']
 
-
-
-
-
-
+list2 = ['时事热点', '外网资源','内网自编']
+print(operator.eq(list,list2))
