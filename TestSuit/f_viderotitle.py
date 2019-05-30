@@ -3,7 +3,6 @@
 from Bussniss.Bussniss import Bussniss
 import unittest
 
-
 class VidevTitle(unittest.TestCase):
     def setUp(self):
         self.b = Bussniss()

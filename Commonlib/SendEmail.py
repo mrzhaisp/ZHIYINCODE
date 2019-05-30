@@ -6,7 +6,8 @@ from email.mime.text import MIMEText
 from email.mime.multipart import MIMEMultipart
 
 sender = 'test_zhai_sp@126.com'
-receiver = ['test_zhai_sp@126.com', '2686852189@qq.com', ]
+# receiver = ['test_zhai_sp@126.com', '2686852189@qq.com', ]
+receiver = [ '2686852189@qq.com']
 smtpserver = 'smtp.126.com'
 username = 'test_zhai_sp@126.com'
 # 注意 这里是授权码 不是密码

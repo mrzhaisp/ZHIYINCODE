@@ -58,4 +58,11 @@
         <password>111111</password>
     </videotitle>
 
+    <uilogin>
+        <url>http://10.168.103.151/web/#/login</url>
+        <usn>admin</usn>
+        <pwd>111111</pwd>
+        <epect>声像情报融合分析平台</epect>
+    </uilogin>
+
 </node>

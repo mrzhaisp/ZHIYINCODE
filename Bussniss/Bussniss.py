@@ -6,6 +6,7 @@ from Commonlib.Loggin import LoggIn
 import os
 import datetime
 import random
+import time
 
 # 视频分类列表
 videosourse = ["人工智能", "电子对抗", "下一代网络", "智能制造", "区块链", "其他"]
@@ -46,6 +47,27 @@ class Bussniss:
         except Exception as e:
             self.l.Logg(e)
             raise e
+
+    def UiLogin(self,myurl,username,password):
+        """登录是否成功"""
+        try:
+            self.c.uiLogIn(myurl,username,password)
+            self.c.waite(2)
+            textone = self.c.tryText(".//body/div[1]/descendant::a[1]")
+            return textone
+            # if textone:
+            #     print(textone)
+            #     return textone
+            # else:
+            #     picture_time = time.strftime("%Y-%m-%d-%H_%M_%S", time.localtime(time.time()))
+            #     self.c.getScreenShot('../Picture/' + '%s.png' % picture_time)
+
+        except Exception as e:
+            picture_time = time.strftime("%Y-%m-%d-%H_%M_%S", time.localtime(time.time()))
+            self.c.getScreenShot('../Picture/' + '%s.png' % picture_time)
+            raise e
+
+
 
     def LoadVideo(self):
         '''登录上传视频后台系统,并上传视频'''
@@ -187,4 +209,4 @@ class Bussniss:
             raise e
 
 # b = Bussniss()
-# b.ShiShiredian("http://10.168.103.151/web/#/login","admin","111111")
+# b.UiLogin("http://10.168.103.151/web/#/login","admin1","111111")
