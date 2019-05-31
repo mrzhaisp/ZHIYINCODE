@@ -21,7 +21,7 @@
 
     <!--非要求视频格式-->
     <videotype>
-        <typetxt>"C:\Users\admin\Desktop\upload.au3"</typetxt>
+        <typetxt>"C:\Users\Test\ruanjian\Autoitupload-filr\upload.exe"</typetxt>
         <alterText>上传的视频必须是 MP4/AVI/MPG/WMV/3GP/MOV/ASF/ASX/FLV 格式 !</alterText>
     </videotype>
 

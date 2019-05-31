@@ -23,7 +23,7 @@ class Bussniss:
         self.r = Readxml()
         self.l = LoggIn()
 
-    def LoadVideoType(self, base_url, username, password, filepath):
+    def LoadVideoType(self, base_url, username, password, filepathone):
         """上传视频格式不符合要求的视频格式"""
         try:
             self.c.loadVideoLogIn(base_url, username, password)
@@ -37,7 +37,7 @@ class Bussniss:
             # ---------:这里是要上传的是视频的路径
             # filepath = self.r.readxml("videofile", "d")
             # 非input标签，第三方工具制作上传文件的路径
-            os.system(r"C:\Users\Test\upload.exe %s" % filepath)
+            os.system(r"C:\Users\Test\ruanjian\Autoitupload-filr\upload.exe %s" % filepathone)
             self.c.waite(2)
             t = self.c.tryText(".//body/div[2]/descendant::p")
             # print(t)
@@ -66,7 +66,6 @@ class Bussniss:
             picture_time = time.strftime("%Y-%m-%d-%H_%M_%S", time.localtime(time.time()))
             self.c.getScreenShot('../Picture/' + '%s.png' % picture_time)
             raise e
-
 
 
     def LoadVideo(self):
