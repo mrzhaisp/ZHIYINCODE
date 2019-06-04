@@ -12,10 +12,16 @@ import time
 videosourse = ["人工智能", "电子对抗", "下一代网络", "智能制造", "区块链", "其他"]
 
 # 视频语言列表
-langue = ["中文", "英语", "日语", "俄语", "法语", "德语", "越南语",
-          "意大利语", "丹麦语", "汉语", "韩语", "瑞典语", "芬兰语",
-          "波兰语", "荷兰语", "泰语", "阿拉伯语", "捷克语", "罗马尼亚语", "匈牙利语", "其他"]
+langue = ["中文", "英语", "日语", "俄语", "法语", "德语", "越南语"]
+          # "意大利语", "丹麦语", "汉语", "韩语", "瑞典语", "芬兰语",
+          # "波兰语", "荷兰语", "泰语", "阿拉伯语", "捷克语", "罗马尼亚语", "匈牙利语", "其他"]
 
+#视频名称特别注意，视频名称不能有空格
+videolist = ["seleniumtest1.mp4","selenium--ParagGupta.mp4","selenium--Markhampionship2018.mp4","selenium--Initiativesety.mp4","selenium--Decision.mp4",
+             "seleniumCures-Faster.mp4","selenium--CSCI262-IDS).mp4","selenium--Blockc2.mp4","selenium--BigNetworks.mp4","selenium-AWS.mp4","selenium001BitoinDoneCrE.mp4"]
+
+#视频上传的目录
+filepath = r"C:\Users\Test\loadvideofile\selenium"
 
 class Bussniss:
     def __init__(self):
@@ -67,7 +73,6 @@ class Bussniss:
             self.c.getScreenShot('../Picture/' + '%s.png' % picture_time)
             raise e
 
-
     def LoadVideo(self):
         '''登录上传视频后台系统,并上传视频'''
         self.l.Logg("登录视频上传网站")
@@ -84,26 +89,25 @@ class Bussniss:
             self.c.waite(1)
 
             # ---------:这里是要上传的是视频的路径
-            filepath = self.r.readxml("videofile", "d")
-
+            # filepath = self.r.readxml("videofile", "d")
+            videoname = random.choice(videolist)
+            allpath = filepath +'\\'+ videoname
+            print(allpath)
             # 非input标签，第三方工具制作上传文件的路径
-            os.system(r"C:\Users\Test\upload.exe %s" % filepath)
+            os.system(r"C:\Users\Test\ruanjian\Autoitupload-filr\upload.exe  %s" %allpath)
             self.c.waite(2)
-
             # ---------:这里是要上传的是视频的路径  选择内网自编，还是外网资源<neiwwang>内网自编</neiwwang><waiwang>外网资源</waiwang>
-            self.c.activeEvent(".//*[contains(text(),'%s')]" % self.r.readxml("shiplaiyuan", "waiwang"))
+            self.c.activeEvent(".//*[contains(text(),'外网资源')]" )
             self.c.waite(1)
             self.c.activeEvent(".//*[contains(text(),'频道分类')]/following-sibling::div/descendant::input")
-            self.c.waite(1)
-
+            self.c.waite(2)
             # 随机选取一个栏目
             self.c.activeEvent(".//*[contains(text(),'%s')]" % random.choice(videosourse))
             print(random.choice(videosourse))
-            self.c.waite(1)
+            self.c.waite(2)
             self.c.activeEvent(".//*[contains(text(),'语种')]/following-sibling::div/descendant::input")
             self.l.Logg("选择语言")
-            self.c.waite(2)
-
+            self.c.waite(3)
             # ---------选择各种语言
             self.c.activeEvent(".//*[contains(text(),'%s')]" % random.choice(langue))
             print(random.choice(langue))
@@ -172,7 +176,6 @@ class Bussniss:
         except Exception as e:
             self.l.Logg(e)
 
-
     def ShiShiredian(self,url,username,password):
         try:
             textlist = []
@@ -207,5 +210,5 @@ class Bussniss:
             self.l.Logg(e)
             raise e
 
-# b = Bussniss()
-# b.UiLogin("http://10.168.103.151/web/#/login","admin1","111111")
+b = Bussniss()
+b.LoadVideo()

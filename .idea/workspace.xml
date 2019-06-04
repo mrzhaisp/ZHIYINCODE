@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d3438caa-c3fa-456e-b335-c98715e5c7dd" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestSuit/loadvideo.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Bussniss/Bussniss.py" afterPath="$PROJECT_DIR$/Bussniss/Bussniss.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Data/Data.xml" afterPath="$PROJECT_DIR$/Data/Data.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Loggs/system.log" afterPath="$PROJECT_DIR$/Loggs/system.log" />
     </list>
     <ignored path="ZHIYINCODE.iws" />
@@ -48,7 +48,7 @@
     <SUITE FILE_PATH="coverage/ZHIYINCODE$flask_hello.coverage" NAME="flask_hello Coverage Results" MODIFIED="1558665459871" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcopy" />
     <SUITE FILE_PATH="coverage/ZHIYINCODE$Readjson.coverage" NAME="Readjson Coverage Results" MODIFIED="1556614757342" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Commonlib" />
     <SUITE FILE_PATH="coverage/ZHIYINCODE$b_loginTitle.coverage" NAME="b_loginTitle Coverage Results" MODIFIED="1559107696288" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TestSuit" />
-    <SUITE FILE_PATH="coverage/ZHIYINCODE$Bussniss.coverage" NAME="Bussniss Coverage Results" MODIFIED="1559196473757" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Bussniss" />
+    <SUITE FILE_PATH="coverage/ZHIYINCODE$Bussniss.coverage" NAME="Bussniss Coverage Results" MODIFIED="1559635086333" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Bussniss" />
     <SUITE FILE_PATH="coverage/ZHIYINCODE$c_loginSpab.coverage" NAME="c_loginSpab Coverage Results" MODIFIED="1559110833671" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TestSuit" />
   </component>
   <component name="CreatePatchCommitExecutor">
@@ -66,25 +66,31 @@
     <favorites_list name="ZHIYINCODE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="a_videoType.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/TestSuit/a_videoType.py">
+    <leaf>
+      <file leaf-file-name="Bussniss.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Bussniss/Bussniss.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="688">
-              <caret line="28" column="9" selection-start-line="28" selection-start-column="9" selection-end-line="28" selection-end-column="9" />
-              <folding />
+            <state relative-caret-position="439">
+              <caret line="213" column="13" selection-start-line="213" selection-start-column="13" selection-end-line="213" selection-end-column="13" />
+              <folding>
+                <element signature="e#46#87#0" expanded="true" />
+                <element signature="e#1082#1940#0" expanded="false" />
+                <element signature="e#1997#2707#0" expanded="false" />
+                <element signature="e#2035#2490#0" expanded="false" />
+                <element signature="e#5863#6182#0" expanded="false" />
+                <element signature="e#6248#7249#0" expanded="false" />
+                <marker date="1559635084072" expanded="false" signature="7300:8585" ph="..." />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Bussniss.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Bussniss/Bussniss.py">
+      <file leaf-file-name="a_videoType.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/TestSuit/a_videoType.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="40">
-              <caret line="89" column="38" selection-start-line="89" selection-start-column="38" selection-end-line="89" selection-end-column="48" />
-              <folding>
-                <element signature="e#46#87#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="332">
+              <caret line="18" column="43" selection-start-line="18" selection-start-column="34" selection-end-line="18" selection-end-column="43" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -92,9 +98,21 @@
       <file leaf-file-name="Data.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Data/Data.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="244">
-              <caret line="21" column="18" selection-start-line="21" selection-start-column="18" selection-end-line="21" selection-end-column="18" />
+            <state relative-caret-position="235">
+              <caret line="23" column="70" selection-start-line="23" selection-start-column="17" selection-end-line="23" selection-end-column="70" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="loadvideo.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/TestSuit/loadvideo.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding>
+                <element signature="e#46#84#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -160,8 +178,9 @@
         <option value="$PROJECT_DIR$/Commonlib/SendEmail.py" />
         <option value="$PROJECT_DIR$/TestSuit/d_viderotitle.py" />
         <option value="$PROJECT_DIR$/TestSuit/a_uilogin.py" />
-        <option value="$PROJECT_DIR$/Bussniss/Bussniss.py" />
         <option value="$PROJECT_DIR$/Data/Data.xml" />
+        <option value="$PROJECT_DIR$/TestSuit/loadvideo.py" />
+        <option value="$PROJECT_DIR$/Bussniss/Bussniss.py" />
       </list>
     </option>
   </component>
@@ -175,7 +194,7 @@
     <option name="x" value="-8" />
     <option name="y" value="-8" />
     <option name="width" value="1936" />
-    <option name="height" value="1056" />
+    <option name="height" value="1048" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -218,8 +237,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -235,48 +254,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="ZHIYINCODE" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ZHIYINCODE" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ZHIYINCODE" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TestSuit" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ZHIYINCODE" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ZHIYINCODE" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Picture" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ZHIYINCODE" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ZHIYINCODE" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Data" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -299,7 +276,7 @@
       <recent name="C:\Users\Test\ZHIYINCODE\testcopy" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.a_videoType">
+  <component name="RunManager" selected="Python.Bussniss">
     <configuration default="false" name="Bussniss" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -612,9 +589,9 @@
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.a_videoType" />
-        <item index="1" class="java.lang.String" itemvalue="Python.a_uilogin" />
-        <item index="2" class="java.lang.String" itemvalue="Python.Bussniss" />
+        <item index="0" class="java.lang.String" itemvalue="Python.Bussniss" />
+        <item index="1" class="java.lang.String" itemvalue="Python.a_videoType" />
+        <item index="2" class="java.lang.String" itemvalue="Python.a_uilogin" />
         <item index="3" class="java.lang.String" itemvalue="Python.d_viderotitle" />
         <item index="4" class="java.lang.String" itemvalue="Python tests.Unittest VidevTitle.test_001" />
       </list>
@@ -678,16 +655,16 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1048" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15128756" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1555794" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32890365" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32890365" sideWeight="0.50208336" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3299356" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32853982" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32890365" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27012128" sideWeight="0.49791667" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3025584" sideWeight="0.49791667" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.100663714" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -734,18 +711,23 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="3" />
+      <option name="time" value="4" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Public/Public.py" />
     <entry file="file://$PROJECT_DIR$/Bussniss/Bussniss.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="266">
           <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
           <folding>
             <element signature="e#46#87#0" expanded="true" />
+            <element signature="e#1082#1940#0" expanded="false" />
+            <element signature="e#1997#2707#0" expanded="false" />
+            <element signature="e#2035#2490#0" expanded="false" />
+            <element signature="e#5863#6182#0" expanded="false" />
+            <element signature="e#6248#7249#0" expanded="false" />
+            <marker date="1559635084072" expanded="false" signature="7300:8585" ph="..." />
           </folding>
         </state>
       </provider>
@@ -766,6 +748,12 @@
           <caret line="17" column="31" selection-start-line="17" selection-start-column="27" selection-end-line="17" selection-end-column="31" />
           <folding>
             <element signature="e#46#87#0" expanded="true" />
+            <element signature="e#1082#1940#0" expanded="false" />
+            <element signature="e#1997#2707#0" expanded="false" />
+            <element signature="e#2035#2490#0" expanded="false" />
+            <element signature="e#5863#6182#0" expanded="false" />
+            <element signature="e#6248#7249#0" expanded="false" />
+            <marker date="1559635084072" expanded="false" signature="7300:8585" ph="..." />
           </folding>
         </state>
       </provider>
@@ -962,7 +950,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3850">
           <caret line="155" column="44" selection-start-line="155" selection-start-column="39" selection-end-line="155" selection-end-column="44" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -971,39 +958,53 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/TestSuit/a_uilogin.py">
+    <entry file="file://$PROJECT_DIR$/TestSuit/loadvideo.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="736">
-          <caret line="23" column="26" selection-start-line="23" selection-start-column="26" selection-end-line="23" selection-end-column="26" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#46#84#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/TestSuit/a_uilogin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Data/Data.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="244">
-          <caret line="21" column="18" selection-start-line="21" selection-start-column="18" selection-end-line="21" selection-end-column="18" />
+        <state relative-caret-position="235">
+          <caret line="23" column="70" selection-start-line="23" selection-start-column="17" selection-end-line="23" selection-end-column="70" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TestSuit/a_videoType.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="332">
+          <caret line="18" column="43" selection-start-line="18" selection-start-column="34" selection-end-line="18" selection-end-column="43" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Bussniss/Bussniss.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="40">
-          <caret line="89" column="38" selection-start-line="89" selection-start-column="38" selection-end-line="89" selection-end-column="48" />
+        <state relative-caret-position="439">
+          <caret line="213" column="13" selection-start-line="213" selection-start-column="13" selection-end-line="213" selection-end-column="13" />
           <folding>
             <element signature="e#46#87#0" expanded="true" />
+            <element signature="e#1082#1940#0" expanded="false" />
+            <element signature="e#1997#2707#0" expanded="false" />
+            <element signature="e#2035#2490#0" expanded="false" />
+            <element signature="e#5863#6182#0" expanded="false" />
+            <element signature="e#6248#7249#0" expanded="false" />
+            <marker date="1559635084072" expanded="false" signature="7300:8585" ph="..." />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TestSuit/a_videoType.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="688">
-          <caret line="28" column="9" selection-start-line="28" selection-start-column="9" selection-end-line="28" selection-end-column="9" />
-          <folding />
         </state>
       </provider>
     </entry>
