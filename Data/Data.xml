@@ -65,4 +65,9 @@
         <epect>声像情报融合分析平台</epect>
     </uilogin>
 
+    <loadvideo>
+        <text>本地上传</text>
+    </loadvideo>
+
+
 </node>

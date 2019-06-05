@@ -132,6 +132,9 @@ class Bussniss:
             self.c.activeEvent(".//*[text()='导入']")
             self.c.waite(2)
             self.c.activeEvent(".//*[contains(text(),'查看处理过程')]")
+            self.c.waite(2)
+            benditext = self.c.tryText(".//*[text()='本地上传']")
+            return benditext
 
         except Exception as e:
             raise
@@ -210,5 +213,5 @@ class Bussniss:
             self.l.Logg(e)
             raise e
 
-b = Bussniss()
-b.LoadVideo()
+# b = Bussniss()
+# b.LoadVideo()
