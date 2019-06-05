@@ -180,6 +180,7 @@ class Bussniss:
             self.l.Logg(e)
 
     def ShiShiredian(self,url,username,password):
+        """点击事实热点拿到title"""
         try:
             textlist = []
             self.l.Logg("This class is shiShiredian")

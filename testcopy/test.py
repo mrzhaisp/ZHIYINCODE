@@ -1,33 +1,42 @@
 #coding=utf-8
-# from Commonlib.Commonlib import Commonlib
-#
-# co = Commonlib()
-# class Alert:
-#
-#     def alert_html(self):
-#         co.openBrowser("file:///C:/Users/admin/Desktop/alert.html")
-#         co.activeEvent(".//*[@id='alert']")
-#         co.waite(2)
-#         co.dissMissAlter()
-#         co.waite(2)
-#         co.activeEvent(".//*[@id='alert']")
-#         co.waite(2)
-#         co.dissMissAlter()
-#
-# mp = Alert()
-# mp.alert_html()
-#
-#
-# name = input("输入姓名")
-# Tel = input("输入电话")
-# print(name)
-# print(Tel)
+from Commonlib.Commonlib import Commonlib
+import time as t
+from selenium import webdriver
+options = webdriver.ChromeOptions()
+prefs = {
+    "download.prompt_for_download": False,
+    'download.default_directory': r'C:\Users\Test\loadvideofile\seleniundownload',#下载目录
+    "plugins.always_open_pdf_externally": True,
+    'profile.default_content_settings.popups': 0,#设置为0，禁止弹出窗口
+    # 'profile.default_content_setting_values.images': 2,#禁止图片加载
+    }
+options.add_experimental_option('prefs',prefs)
 
-textlist = ['How to Configure IPv6 Default Route in Packet Tracer CISCO Certification', '汉化名称：How to Configure IPv6 Default Route in Packet Tracer CISCO Certification']
-print(textlist[0])
-# print(a[1])
-acop = textlist[1].split("：")
-print(acop[1])
+executable_path = "C:\\Users\\admin\\AppData\\Local\\Google\\Chrome\\Application\\chromedriver.exe"
+
+dr = webdriver.Chrome(executable_path=executable_path,chrome_options=options)
+
+dr.get("http://10.168.103.151/web/#/login")
+
+dr.maximize_window()
+
+dr.find_element("xpath",".//*[@class='el-input el-input-group el-input-group--prepend'][1]/input").send_keys("admin")
+t.sleep(1)
+dr.find_element("xpath",".//*[@class='el-input el-input-group el-input-group--prepend'][2]/input").send_keys("111111")
+t.sleep(1)
+dr.find_element("xpath",".//*[contains(text(),'立即登录')]").click()
+t.sleep(1)
+#点击事实热点
+dr.find_element("xpath",".//section/div/descendant::a[5]").click()
+t.sleep(1)
+dr.find_element("xpath",".//section/div/descendant::img[1]").click()
+t.sleep(2)
+dr.find_element("xpath",".//*[contains(text(),'下载视频')]").click()
+
+
+
+
+
 
 
 

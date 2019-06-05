@@ -1,14 +1,13 @@
 # coding=utf-8
 # __author__ = 'zgd'
+from selenium import webdriver
+from selenium.webdriver.common.action_chains import ActionChains
 import sys
 import os
-
 sys.path
 curPath = os.path.abspath(os.path.dirname(__file__))
 rootPath = os.path.split(curPath)[0]
 sys.path.append(rootPath)
-from selenium import webdriver
-from selenium.webdriver.common.action_chains import ActionChains
 import time as t
 import warnings
 
@@ -17,8 +16,17 @@ class Commonlib():
     def __init__(self):
         """加载firefox配置文件"""
         # self.dr = webdriver.Firefox(webdriver.FirefoxProfile("C:\Users\Administrator\AppData\Roaming\Mozilla\Firefox\Profiles\glw65f77.default"))
-        # self.dr = webdriver.Firefox()
-        self.dr = webdriver.Chrome('C:\\Users\\admin\\AppData\\Local\\Google\\Chrome\\Application\\chromedriver.exe')
+        self.options = webdriver.ChromeOptions()
+        self.prefs = {
+            "download.prompt_for_download": False,
+            'download.default_directory': r'C:\Users\Test\loadvideofile\seleniundownload',  # 设置下载目录
+            "plugins.always_open_pdf_externally": True,
+            'profile.default_content_settings.popups': 0,  # 设置为0，禁止弹出窗口
+            # 'profile.default_content_setting_values.images': 2,#禁止图片加载
+        }
+        self.options.add_experimental_option("prefs",self.prefs)
+        self.executable_path = "C:\\Users\\admin\\AppData\\Local\\Google\\Chrome\\Application\\chromedriver.exe"
+        self.dr = webdriver.Chrome(executable_path=self.executable_path)
 
     def openBrowser(self, myurl):
         """打开浏览器"""

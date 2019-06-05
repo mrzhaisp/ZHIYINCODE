@@ -20,7 +20,6 @@ class loadvideo(unittest.TestCase):
             self.b.r.readxml("loadvideo","text")
         )
 
-
 if __name__ == '__main__':
     unittest.main()
 
