@@ -194,3 +194,4 @@
 2019-06-05 16:02:07,246-logTest-INFO-Loggin:停止播放视频
 2019-06-05 16:02:14,201-logTest-INFO-Loggin:登录视频上传网站
 2019-06-05 16:02:24,586-logTest-INFO-Loggin:上传视频文件
+2019-06-05 17:02:06,861-logTest-INFO-Loggin:local variable 'videoname' referenced before assignment

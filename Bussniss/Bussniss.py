@@ -89,7 +89,6 @@ class Bussniss:
             self.c.waite(1)
 
             # ---------:这里是要上传的是视频的路径
-            # filepath = self.r.readxml("videofile", "d")
             videoname = random.choice(videolist)
             allpath = filepath +'\\'+ videoname
             print(allpath)
@@ -216,3 +215,47 @@ class Bussniss:
 
 # b = Bussniss()
 # b.LoadVideo()
+
+    def DownloadVideo(self, myurl, username, password):
+        """随机下载视频到固定路径"""
+        try:
+            self.c.uiLogIn( myurl, username, password)
+            self.c.waite(2)
+            #这几个xpat对应“央企”，“国资委”，“人工智能”，“电子对抗”，“下一代网络”，“智能制造”，“区块链”
+            listnum = ["5", "6", "7", "8", "9", "10", "11", "12", "13", "14"]
+            # 随机选择栏目
+            filexpath = ".//section/div/descendant::a[%s]" % random.choice(listnum)
+            self.c.activeEvent(filexpath)
+            #点击进入详细视频页,点击第一条视频
+            self.c.waite(2)
+            #下拉500像素
+            self.c.jsTopDown(500)
+            self.c.waite(2)
+            #随机选取页面上的任意一个视频
+            videolistnum = ["1","2","3","4","5","6","7","8"]
+            self.c.activeEvent(".//section/div/descendant::img[%s]"%random.choice(videolistnum))
+            self.c.waite(2)
+            namestrs = self.c.tryText(".//body/descendant::section/descendant::h2")
+            videonameall =namestrs .split('丨')
+            # 拿到视频的名称，然后去下载文件的路径下，根据这个名称找下载的视频列表
+            videoname = videonameall[1]
+            #点击视频下载
+            self.c.activeEvent(".//*[contains(text(),'下载视频')]")
+            #暂停20S下载视频
+            self.c.waite(20)
+            return videoname
+
+        except Exception as e:
+            self.l.Logg(e)
+            raise e
+
+    # def GetVideoNameList(self,file_path):
+    #     #遍历下载路径下的文件的所有名称
+    #     videonames = os.listdir(file_path)
+    #     print(videonames)
+    #     return videonames
+
+
+b = Bussniss()
+b.DownloadVideo("http://10.168.103.151/web/#/login","admin","111111")
+# # b.GetVideoNameList(r"C:\Users\Test\loadvideofile\seleniundownload")

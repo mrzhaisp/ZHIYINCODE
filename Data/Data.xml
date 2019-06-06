@@ -69,5 +69,12 @@
         <text>本地上传</text>
     </loadvideo>
 
+    <!--下载视频后的路径-->
+    <dowmloadvideo>
+        <url>http://10.168.103.151/web/#/login</url>
+        <usna>admin</usna>
+        <paswd>111111</paswd>
+        <videofile>C:\Users\Test\loadvideofile\seleniundownload</videofile>
+    </dowmloadvideo>
 
 </node>
