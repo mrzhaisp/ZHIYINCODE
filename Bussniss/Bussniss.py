@@ -256,6 +256,6 @@ class Bussniss:
     #     return videonames
 
 
-b = Bussniss()
-b.DownloadVideo("http://10.168.103.151/web/#/login","admin","111111")
+# b = Bussniss()
+# b.DownloadVideo("http://10.168.103.151/web/#/login","admin","111111")
 # # b.GetVideoNameList(r"C:\Users\Test\loadvideofile\seleniundownload")

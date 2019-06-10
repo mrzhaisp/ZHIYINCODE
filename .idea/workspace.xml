@@ -2,14 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d3438caa-c3fa-456e-b335-c98715e5c7dd" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestSuit/h_dowmkoadvideo.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/testcopy/test001.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/TestSuit/loadvideo.py" afterPath="$PROJECT_DIR$/TestSuit/g_loadvideo.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Bussniss/Bussniss.py" afterPath="$PROJECT_DIR$/Bussniss/Bussniss.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Data/Data.xml" afterPath="$PROJECT_DIR$/Data/Data.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Loggs/system.log" afterPath="$PROJECT_DIR$/Loggs/system.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/testcopy/test.py" afterPath="$PROJECT_DIR$/testcopy/test.py" />
     </list>
     <ignored path="ZHIYINCODE.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -78,16 +72,19 @@
       <file leaf-file-name="Bussniss.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Bussniss/Bussniss.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="244">
-              <caret line="248" column="24" selection-start-line="248" selection-start-column="24" selection-end-line="248" selection-end-column="24" />
+            <state relative-caret-position="610">
+              <caret line="256" column="0" selection-start-line="256" selection-start-column="0" selection-end-line="256" selection-end-column="0" />
               <folding>
                 <element signature="e#46#87#0" expanded="true" />
                 <element signature="e#1082#1940#0" expanded="false" />
                 <element signature="e#1997#2707#0" expanded="false" />
                 <element signature="e#2035#2490#0" expanded="false" />
+                <element signature="e#2742#5855#0" expanded="false" />
+                <element signature="e#2822#5805#0" expanded="false" />
                 <element signature="e#5924#6243#0" expanded="false" />
                 <element signature="e#6309#7310#0" expanded="false" />
                 <element signature="e#7370#8708#0" expanded="false" />
+                <element signature="e#8774#10336#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -96,7 +93,7 @@
       <file leaf-file-name="h_dowmkoadvideo.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/TestSuit/h_dowmkoadvideo.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
+            <state relative-caret-position="500">
               <caret line="20" column="21" selection-start-line="20" selection-start-column="21" selection-end-line="20" selection-end-column="21" />
               <folding>
                 <element signature="e#46#84#0" expanded="true" />
@@ -108,7 +105,7 @@
       <file leaf-file-name="Data.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Data/Data.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="613">
+            <state relative-caret-position="1900">
               <caret line="76" column="63" selection-start-line="76" selection-start-column="19" selection-end-line="76" selection-end-column="63" />
               <folding />
             </state>
@@ -118,7 +115,7 @@
       <file leaf-file-name="test001.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/testcopy/test001.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="259">
+            <state relative-caret-position="175">
               <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
               <folding />
             </state>
@@ -188,9 +185,9 @@
         <option value="$PROJECT_DIR$/Commonlib/Commonlib.py" />
         <option value="$PROJECT_DIR$/testcopy/test.py" />
         <option value="$PROJECT_DIR$/Data/Data.xml" />
-        <option value="$PROJECT_DIR$/Bussniss/Bussniss.py" />
         <option value="$PROJECT_DIR$/testcopy/test001.py" />
         <option value="$PROJECT_DIR$/TestSuit/h_dowmkoadvideo.py" />
+        <option value="$PROJECT_DIR$/Bussniss/Bussniss.py" />
       </list>
     </option>
   </component>
@@ -247,8 +244,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -264,6 +261,20 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="ZHIYINCODE" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ZHIYINCODE" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ZHIYINCODE" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="testcopy" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -388,6 +399,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
+    <property name="js-jscs-nodeInterpreter" value="C:\Users\Test\ruanjian\Appium_about\node-file\file\node.exe" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -780,24 +792,24 @@
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.12714592" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.12875536" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32890365" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32890365" sideWeight="0.50208336" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3299356" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32853982" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32890365" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.093818985" sideWeight="0.49791667" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.100663714" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39957035" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.093818985" sideWeight="0.49791667" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24973261" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32853982" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39957035" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -856,9 +868,12 @@
             <element signature="e#1082#1940#0" expanded="false" />
             <element signature="e#1997#2707#0" expanded="false" />
             <element signature="e#2035#2490#0" expanded="false" />
+            <element signature="e#2742#5855#0" expanded="false" />
+            <element signature="e#2822#5805#0" expanded="false" />
             <element signature="e#5924#6243#0" expanded="false" />
             <element signature="e#6309#7310#0" expanded="false" />
             <element signature="e#7370#8708#0" expanded="false" />
+            <element signature="e#8774#10336#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1074,15 +1089,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="275">
           <caret line="49" column="56" selection-start-line="49" selection-start-column="12" selection-end-line="49" selection-end-column="56" />
-          <folding>
-            <element signature="e#87#105#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Data/Data.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="613">
+        <state relative-caret-position="1900">
           <caret line="76" column="63" selection-start-line="76" selection-start-column="19" selection-end-line="76" selection-end-column="63" />
           <folding />
         </state>
@@ -1092,21 +1104,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1974">
           <caret line="21" column="48" selection-start-line="21" selection-start-column="48" selection-end-line="21" selection-end-column="48" />
-          <folding>
-            <element signature="e#1262#1334#0" expanded="false" />
-            <element signature="e#1372#1415#0" expanded="false" />
-            <element signature="e#1452#1524#0" expanded="false" />
-            <element signature="e#1561#1608#0" expanded="false" />
-            <element signature="e#1653#1719#0" expanded="false" />
-            <element signature="e#1763#1826#0" expanded="false" />
-            <element signature="e#2618#2851#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/testcopy/test001.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="259">
+        <state relative-caret-position="175">
           <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
           <folding />
         </state>
@@ -1114,7 +1117,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/TestSuit/h_dowmkoadvideo.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
+        <state relative-caret-position="500">
           <caret line="20" column="21" selection-start-line="20" selection-start-column="21" selection-end-line="20" selection-end-column="21" />
           <folding>
             <element signature="e#46#84#0" expanded="true" />
@@ -1124,16 +1127,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Bussniss/Bussniss.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="244">
-          <caret line="248" column="24" selection-start-line="248" selection-start-column="24" selection-end-line="248" selection-end-column="24" />
+        <state relative-caret-position="610">
+          <caret line="256" column="0" selection-start-line="256" selection-start-column="0" selection-end-line="256" selection-end-column="0" />
           <folding>
             <element signature="e#46#87#0" expanded="true" />
             <element signature="e#1082#1940#0" expanded="false" />
             <element signature="e#1997#2707#0" expanded="false" />
             <element signature="e#2035#2490#0" expanded="false" />
+            <element signature="e#2742#5855#0" expanded="false" />
+            <element signature="e#2822#5805#0" expanded="false" />
             <element signature="e#5924#6243#0" expanded="false" />
             <element signature="e#6309#7310#0" expanded="false" />
             <element signature="e#7370#8708#0" expanded="false" />
+            <element signature="e#8774#10336#0" expanded="false" />
           </folding>
         </state>
       </provider>
