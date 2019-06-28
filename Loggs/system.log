@@ -195,3 +195,27 @@
 2019-06-05 16:02:14,201-logTest-INFO-Loggin:登录视频上传网站
 2019-06-05 16:02:24,586-logTest-INFO-Loggin:上传视频文件
 2019-06-05 17:02:06,861-logTest-INFO-Loggin:local variable 'videoname' referenced before assignment
+2019-06-10 10:33:34,286-logTest-INFO-Loggin:上传视频文件
+2019-06-10 10:33:41,670-logTest-INFO-Loggin:拿到警告Alter弹框上文字
+2019-06-10 10:33:46,602-logTest-INFO-Loggin:This class is AudioVideo
+2019-06-10 10:34:01,116-logTest-INFO-Loggin:点击音视频库
+2019-06-10 10:34:07,231-logTest-INFO-Loggin:拿到音视频下首页的第一个标签为—》时事热点
+2019-06-10 10:34:07,267-logTest-INFO-Loggin:拿到音视频下首页的第二个标签为—》内网自编
+2019-06-10 10:34:07,318-logTest-INFO-Loggin:拿到音视频下首页的第三个标签为—》外网资源
+2019-06-10 10:34:22,469-logTest-INFO-Loggin:web首页登录后Title为--->声像情报融合分析平台
+2019-06-10 10:34:30,605-logTest-INFO-Loggin:This class is shiShiredian
+2019-06-10 10:34:43,021-logTest-INFO-Loggin:拿到时事热点第一条视频
+2019-06-10 10:34:45,167-logTest-INFO-Loggin:点击播放视频
+2019-06-10 10:34:50,271-logTest-INFO-Loggin:停止播放视频
+2019-06-10 10:34:59,435-logTest-INFO-Loggin:登录视频上传网站
+2019-06-10 10:35:10,644-logTest-INFO-Loggin:上传视频文件
+2019-06-10 10:35:21,791-logTest-INFO-Loggin:选择语言
+2019-06-10 10:35:25,907-logTest-INFO-Loggin:清除制作日期，重新输入当期日期
+2019-06-10 10:35:28,295-logTest-INFO-Loggin:清除上传日期，重新输入当期日期
+2019-06-10 10:35:29,510-logTest-INFO-Loggin:输入内容摘要
+2019-06-28 09:11:56,016-logTest-INFO-Loggin:登录视频上传网站
+2019-06-28 09:12:07,206-logTest-INFO-Loggin:上传视频文件
+2019-06-28 09:12:18,098-logTest-INFO-Loggin:选择语言
+2019-06-28 09:12:22,235-logTest-INFO-Loggin:清除制作日期，重新输入当期日期
+2019-06-28 09:12:24,617-logTest-INFO-Loggin:清除上传日期，重新输入当期日期
+2019-06-28 09:12:25,794-logTest-INFO-Loggin:输入内容摘要

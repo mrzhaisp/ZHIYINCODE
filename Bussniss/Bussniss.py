@@ -23,6 +23,8 @@ videolist = ["seleniumtest1.mp4","selenium--ParagGupta.mp4","selenium--Markhampi
 #视频上传的目录
 filepath = r"C:\Users\Test\loadvideofile\selenium"
 
+picture_time = time.strftime("%Y-%m-%d-%H_%M_%S", time.localtime(time.time()))
+
 class Bussniss:
     def __init__(self):
         self.c = Commonlib()
@@ -69,7 +71,6 @@ class Bussniss:
             #     self.c.getScreenShot('../Picture/' + '%s.png' % picture_time)
 
         except Exception as e:
-            picture_time = time.strftime("%Y-%m-%d-%H_%M_%S", time.localtime(time.time()))
             self.c.getScreenShot('../Picture/' + '%s.png' % picture_time)
             raise e
 
@@ -130,12 +131,16 @@ class Bussniss:
             self.c.waite(1)
             self.c.activeEvent(".//*[text()='导入']")
             self.c.waite(2)
+            #点击桌面弹出提示框
+            self.c.activeEvent(".//body/descendant::span[35]/descendant::span")
+            self.c.waite(2)
             self.c.activeEvent(".//*[contains(text(),'查看处理过程')]")
             self.c.waite(2)
             benditext = self.c.tryText(".//*[text()='本地上传']")
             return benditext
 
         except Exception as e:
+            self.c.getScreenShot('../Picture/' + '%s.png' % picture_time)
             raise
 
     def getLoginTitle(self, base_url, username, password):
@@ -148,6 +153,7 @@ class Bussniss:
             return texttwo
         except Exception as e:
             self.l.Logg(e)
+            self.c.getScreenShot('../Picture/' + '%s.png' % picture_time)
             raise e
 
     def AudioVideo(self, base_url, username, password):
@@ -176,6 +182,7 @@ class Bussniss:
             # print(type(listtext),listtext)
             return listtext
         except Exception as e:
+            self.c.getScreenShot('../Picture/' + '%s.png' % picture_time)
             self.l.Logg(e)
 
     def ShiShiredian(self,url,username,password):
@@ -211,6 +218,7 @@ class Bussniss:
 
         except Exception as e:
             self.l.Logg(e)
+            self.c.getScreenShot('../Picture/' + '%s.png' % picture_time)
             raise e
 
 # b = Bussniss()
@@ -247,6 +255,7 @@ class Bussniss:
 
         except Exception as e:
             self.l.Logg(e)
+            self.c.getScreenShot('../Picture/' + '%s.png' % picture_time)
             raise e
 
     # def GetVideoNameList(self,file_path):
@@ -262,5 +271,6 @@ class Bussniss:
 
 
 # b = Bussniss()
+# b.LoadVideo()
 # b.DownloadVideo("http://10.168.103.151/web/#/login","admin","111111")
 # # b.GetVideoNameList(r"C:\Users\Test\loadvideofile\seleniundownload")
