@@ -219,3 +219,68 @@
 2019-06-28 09:12:22,235-logTest-INFO-Loggin:清除制作日期，重新输入当期日期
 2019-06-28 09:12:24,617-logTest-INFO-Loggin:清除上传日期，重新输入当期日期
 2019-06-28 09:12:25,794-logTest-INFO-Loggin:输入内容摘要
+2019-07-10 15:33:35,465-logTest-INFO-Loggin:None != '声像情报融合分析平台'
+2019-07-10 15:36:32,129-logTest-INFO-Loggin:None != '声像情报融合分析平台'
+2019-07-10 15:37:34,552-logTest-INFO-Loggin:None != '声像情报融合分析平台'
+2019-07-10 15:44:15,409-logTest-INFO-Loggin:None != '声像情报融合分析平台'
+2019-07-10 15:44:51,481-logTest-INFO-Loggin:None != '声像情报融合分析平台'
+2019-07-10 15:46:55,918-logTest-INFO-Loggin:None != '声像情报融合分析平台'
+2019-07-10 15:51:54,395-logTest-INFO-Loggin:None != '声像情报融合分析平台'
+2019-07-10 15:58:19,125-logTest-INFO-Loggin:None != '声像情报融合分析平台'
+2019-07-10 15:58:34,809-logTest-INFO-Loggin:Message: no such element: Unable to locate element: {"method":"xpath","selector":".//*[contains(text(),'导入视频')]"}
+  (Session info: chrome=68.0.3440.75)
+  (Driver info: chromedriver=2.39.562718 (9a2698cba08cf5a471a29d30c8b3e12becabb0e9),platform=Windows NT 6.1.7601 SP1 x86_64)
+
+2019-07-10 15:58:39,664-logTest-INFO-Loggin:This class is AudioVideo
+2019-07-10 15:58:48,549-logTest-INFO-Loggin:点击音视频库
+2019-07-10 15:58:48,584-logTest-INFO-Loggin:Message: no such element: Unable to locate element: {"method":"xpath","selector":".//body/div[1]/descendant::a[2]"}
+  (Session info: chrome=68.0.3440.75)
+  (Driver info: chromedriver=2.39.562718 (9a2698cba08cf5a471a29d30c8b3e12becabb0e9),platform=Windows NT 6.1.7601 SP1 x86_64)
+
+2019-07-10 15:59:04,255-logTest-INFO-Loggin:web首页登录后Title为--->声像情报融合分析平台
+2019-07-10 15:59:11,752-logTest-INFO-Loggin:This class is shiShiredian
+2019-07-10 15:59:21,596-logTest-INFO-Loggin:Message: no such element: Unable to locate element: {"method":"xpath","selector":".//body/div[1]/section/descendant::a[4]"}
+  (Session info: chrome=68.0.3440.75)
+  (Driver info: chromedriver=2.39.562718 (9a2698cba08cf5a471a29d30c8b3e12becabb0e9),platform=Windows NT 6.1.7601 SP1 x86_64)
+
+2019-07-10 15:59:26,550-logTest-INFO-Loggin:登录视频上传网站
+2019-07-10 15:59:37,648-logTest-INFO-Loggin:Message: no such element: Unable to locate element: {"method":"xpath","selector":".//*[contains(text(),'导入视频')]"}
+  (Session info: chrome=68.0.3440.75)
+  (Driver info: chromedriver=2.39.562718 (9a2698cba08cf5a471a29d30c8b3e12becabb0e9),platform=Windows NT 6.1.7601 SP1 x86_64)
+
+2019-07-10 16:00:16,366-logTest-INFO-Loggin:Message: no such element: Unable to locate element: {"method":"xpath","selector":".//section/div/descendant::a[6]"}
+  (Session info: chrome=68.0.3440.75)
+  (Driver info: chromedriver=2.39.562718 (9a2698cba08cf5a471a29d30c8b3e12becabb0e9),platform=Windows NT 6.1.7601 SP1 x86_64)
+
+2019-07-10 16:04:47,297-logTest-INFO-Loggin:None != '声像情报融合分析平台'
+2019-07-10 16:05:23,595-logTest-INFO-Loggin:上传视频文件
+2019-07-10 16:05:30,918-logTest-INFO-Loggin:拿到警告Alter弹框上文字
+2019-07-10 16:06:44,415-logTest-INFO-Loggin:Message: no such element: Unable to locate element: {"method":"xpath","selector":".//*[contains(text(),'导入视频')]"}
+  (Session info: chrome=68.0.3440.75)
+  (Driver info: chromedriver=2.39.562718 (9a2698cba08cf5a471a29d30c8b3e12becabb0e9),platform=Windows NT 6.1.7601 SP1 x86_64)
+
+2019-07-10 16:08:31,016-logTest-INFO-Loggin:Message: no such element: Unable to locate element: {"method":"xpath","selector":".//*[contains(text(),'导入视频')]"}
+  (Session info: chrome=68.0.3440.75)
+  (Driver info: chromedriver=2.39.562718 (9a2698cba08cf5a471a29d30c8b3e12becabb0e9),platform=Windows NT 6.1.7601 SP1 x86_64)
+
+2019-07-10 16:09:10,716-logTest-INFO-Loggin:Message: no such element: Unable to locate element: {"method":"xpath","selector":".//*[contains(text(),'导入视频')]"}
+  (Session info: chrome=68.0.3440.75)
+  (Driver info: chromedriver=2.39.562718 (9a2698cba08cf5a471a29d30c8b3e12becabb0e9),platform=Windows NT 6.1.7601 SP1 x86_64)
+
+2019-07-10 16:10:28,700-logTest-INFO-Loggin:Message: no such element: Unable to locate element: {"method":"xpath","selector":".//*[contains(text(),'导入视频')]"}
+  (Session info: chrome=68.0.3440.75)
+  (Driver info: chromedriver=2.39.562718 (9a2698cba08cf5a471a29d30c8b3e12becabb0e9),platform=Windows NT 6.1.7601 SP1 x86_64)
+
+2019-07-10 16:11:07,589-logTest-INFO-Loggin:Message: no such element: Unable to locate element: {"method":"xpath","selector":".//*[contains(text(),'导入视频')]"}
+  (Session info: chrome=68.0.3440.75)
+  (Driver info: chromedriver=2.39.562718 (9a2698cba08cf5a471a29d30c8b3e12becabb0e9),platform=Windows NT 6.1.7601 SP1 x86_64)
+
+2019-07-10 16:11:07,907-logTest-INFO-Loggin:Message: no such element: Unable to locate element: {"method":"xpath","selector":".//*[contains(text(),'导入视频')]"}
+  (Session info: chrome=68.0.3440.75)
+  (Driver info: chromedriver=2.39.562718 (9a2698cba08cf5a471a29d30c8b3e12becabb0e9),platform=Windows NT 6.1.7601 SP1 x86_64)
+
+2019-07-10 16:11:51,161-logTest-INFO-Loggin:This class is AudioVideo
+2019-07-10 16:12:01,777-logTest-INFO-Loggin:点击音视频库
+2019-07-10 16:12:02,992-logTest-INFO-Loggin:拿到音视频下首页的第一个标签为—》时事热点
+2019-07-10 16:12:03,031-logTest-INFO-Loggin:拿到音视频下首页的第二个标签为—》内网自编
+2019-07-10 16:12:03,056-logTest-INFO-Loggin:拿到音视频下首页的第三个标签为—》外网资源

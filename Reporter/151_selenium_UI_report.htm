@@ -116,18 +116,18 @@ function html_escape(s) {
 <div class='heading'>
 <h1 style="font-family: Microsoft YaHei">151--声像情报分析系统测试报告</h1>
 <p class='attribute'><strong>测试人员 : </strong> Test_Zhai</p>
-<p class='attribute'><strong>开始时间 : </strong> 2019-06-10 10:32:57</p>
-<p class='attribute'><strong>合计耗时 : </strong> 0:03:44.291000</p>
-<p class='attribute'><strong>测试结果 : </strong> 共 7，通过 7，通过率= 100.00%</p>
+<p class='attribute'><strong>开始时间 : </strong> 2019-07-10 15:57:52</p>
+<p class='attribute'><strong>合计耗时 : </strong> 0:02:24.091000</p>
+<p class='attribute'><strong>测试结果 : </strong> 共 7，通过 2，错误 5，通过率= 28.57%</p>
 
 <p class='description'>声像情报分析系统UI自动化测试</p>
 </div>
 
 
 <p id='show_detail_line'>
-<a class="btn btn-primary" href='javascript:showCase(0)'>概要{ 100.00% }</a>
+<a class="btn btn-primary" href='javascript:showCase(0)'>概要{ 28.57% }</a>
 <a class="btn btn-danger" href='javascript:showCase(1)'>失败{ 0 }</a>
-<a class="btn btn-success" href='javascript:showCase(2)'>通过{ 7 }</a>
+<a class="btn btn-success" href='javascript:showCase(2)'>通过{ 2 }</a>
 <a class="btn btn-info" href='javascript:showCase(3)'>所有{ 7 }</a>
 </p>
 <table id='result_table' class="table table-condensed table-bordered table-hover">
@@ -159,35 +159,116 @@ function html_escape(s) {
 
 <tr id='pt1_1' class='hiddenRow'>
     <td class='passCase'><div class='testcase'>test_001: 是否能正常登录上去</div></td>
-    <td colspan='5' align='center'><span class="label label-success success">通过</span></td>
+    <td colspan='5' align='center'>
+    <!--默认收起错误信息 -Findyou
+    <button id='btn_pt1_1' type="button"  class="btn btn-danger btn-xs collapsed" data-toggle="collapse" data-target='#div_pt1_1'>通过</button>
+    <div id='div_pt1_1' class="collapse">  -->
+    <!-- 默认展开错误信息 -Findyou -->
+    <button id='btn_pt1_1' type="button"  class="btn btn-danger btn-xs" data-toggle="collapse" data-target='#div_pt1_1'>通过</button>
+    <div id='div_pt1_1' class="collapse in" align="left">
+    <pre>
+    
+pt1_1: None != '声像情报融合分析平台'
+
+
+    </pre>
+    </div>
+    </td>
 </tr>
 
-<tr class='passClass warning'>
+<tr class='errorClass warning'>
     <td>a_videoType.TestVideoType</td>
     <td class="text-center">1</td>
+    <td class="text-center">0</td>
+    <td class="text-center">0</td>
     <td class="text-center">1</td>
-    <td class="text-center">0</td>
-    <td class="text-center">0</td>
     <td class="text-center"><a href="javascript:showClassDetail('c2',1)" class="detail" id='c2'>详细</a></td>
 </tr>
 
-<tr id='pt2_1' class='hiddenRow'>
-    <td class='passCase'><div class='testcase'>test_001: 上传限制格式之外的视频格式</div></td>
-    <td colspan='5' align='center'><span class="label label-success success">通过</span></td>
+<tr id='ft2_1' class='none'>
+    <td class='errorCase'><div class='testcase'>test_001: 上传限制格式之外的视频格式</div></td>
+    <td colspan='5' align='center'>
+    <!--默认收起错误信息 -Findyou
+    <button id='btn_ft2_1' type="button"  class="btn btn-danger btn-xs collapsed" data-toggle="collapse" data-target='#div_ft2_1'>错误</button>
+    <div id='div_ft2_1' class="collapse">  -->
+    <!-- 默认展开错误信息 -Findyou -->
+    <button id='btn_ft2_1' type="button"  class="btn btn-danger btn-xs" data-toggle="collapse" data-target='#div_ft2_1'>错误</button>
+    <div id='div_ft2_1' class="collapse in" align="left">
+    <pre>
+    
+ft2_1: Traceback (most recent call last):
+  File "C:\Users\Test\ZHIYINCODE\TestSuit\a_videoType.py", line 20, in test_001
+    self.b.r.readxml("videotype", "typetxt"))
+  File "C:\Users\Test\ZHIYINCODE\Bussniss\Bussniss.py", line 55, in LoadVideoType
+    raise e
+  File "C:\Users\Test\ZHIYINCODE\Bussniss\Bussniss.py", line 37, in LoadVideoType
+    self.c.activeEvent(".//*[contains(text(),'导入视频')]")
+  File "C:\Users\Test\ZHIYINCODE\Commonlib\Commonlib.py", line 54, in activeEvent
+    self.dr.find_element("xpath", value).click()
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python35-32\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 978, in find_element
+    'value': value})['value']
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python35-32\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python35-32\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":".//*[contains(text(),'导入视频')]"}
+  (Session info: chrome=68.0.3440.75)
+  (Driver info: chromedriver=2.39.562718 (9a2698cba08cf5a471a29d30c8b3e12becabb0e9),platform=Windows NT 6.1.7601 SP1 x86_64)
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Test\ZHIYINCODE\TestSuit\a_videoType.py", line 25, in test_001
+    nowTime = time.strftime("%Y%m%d.%H.%M.%S")
+NameError: name 'time' is not defined
+
+
+    </pre>
+    </div>
+    </td>
 </tr>
 
-<tr class='passClass warning'>
+<tr class='errorClass warning'>
     <td>c_loginSpab.LoginSpan: 登录主页后显示三个span栏目'时事热点','内网自编','外网资源',</td>
     <td class="text-center">1</td>
+    <td class="text-center">0</td>
+    <td class="text-center">0</td>
     <td class="text-center">1</td>
-    <td class="text-center">0</td>
-    <td class="text-center">0</td>
     <td class="text-center"><a href="javascript:showClassDetail('c3',1)" class="detail" id='c3'>详细</a></td>
 </tr>
 
-<tr id='pt3_1' class='hiddenRow'>
-    <td class='passCase'><div class='testcase'>test_001: 获取到页面上登录首页的三个标题，组成列表，对比</div></td>
-    <td colspan='5' align='center'><span class="label label-success success">通过</span></td>
+<tr id='ft3_1' class='none'>
+    <td class='errorCase'><div class='testcase'>test_001: 获取到页面上登录首页的三个标题，组成列表，对比</div></td>
+    <td colspan='5' align='center'>
+    <!--默认收起错误信息 -Findyou
+    <button id='btn_ft3_1' type="button"  class="btn btn-danger btn-xs collapsed" data-toggle="collapse" data-target='#div_ft3_1'>错误</button>
+    <div id='div_ft3_1' class="collapse">  -->
+    <!-- 默认展开错误信息 -Findyou -->
+    <button id='btn_ft3_1' type="button"  class="btn btn-danger btn-xs" data-toggle="collapse" data-target='#div_ft3_1'>错误</button>
+    <div id='div_ft3_1' class="collapse in" align="left">
+    <pre>
+    
+ft3_1: Traceback (most recent call last):
+  File "C:\Users\Test\ZHIYINCODE\TestSuit\c_loginSpab.py", line 30, in test_001
+    self.assertEqual(t, True)
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python35-32\lib\unittest\case.py", line 829, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python35-32\lib\unittest\case.py", line 822, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: False != True
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Test\ZHIYINCODE\TestSuit\c_loginSpab.py", line 33, in test_001
+    nowTime = time.strftime("%Y%m%d.%H.%M.%S")
+NameError: name 'time' is not defined
+
+
+    </pre>
+    </div>
+    </td>
 </tr>
 
 <tr class='passClass warning'>
@@ -204,43 +285,52 @@ function html_escape(s) {
     <td colspan='5' align='center'><span class="label label-success success">通过</span></td>
 </tr>
 
-<tr class='passClass warning'>
+<tr class='errorClass warning'>
     <td>f_viderotitle.VidevTitle</td>
     <td class="text-center">1</td>
+    <td class="text-center">0</td>
+    <td class="text-center">0</td>
     <td class="text-center">1</td>
-    <td class="text-center">0</td>
-    <td class="text-center">0</td>
     <td class="text-center"><a href="javascript:showClassDetail('c5',1)" class="detail" id='c5'>详细</a></td>
 </tr>
 
-<tr id='pt5_1' class='hiddenRow'>
-    <td class='passCase'><div class='testcase'>test_001: 拿到视频未点击钱的名称和视频点击后的名称</div></td>
-    <td colspan='5' align='center'><span class="label label-success success">通过</span></td>
-</tr>
-
-<tr class='passClass warning'>
-    <td>g_loadvideo.loadvideo: 上传视频</td>
-    <td class="text-center">1</td>
-    <td class="text-center">1</td>
-    <td class="text-center">0</td>
-    <td class="text-center">0</td>
-    <td class="text-center"><a href="javascript:showClassDetail('c6',1)" class="detail" id='c6'>详细</a></td>
-</tr>
-
-<tr id='pt6_1' class='hiddenRow'>
-    <td class='passCase'><div class='testcase'>test_001: 上传符合格式的视频</div></td>
+<tr id='ft5_1' class='none'>
+    <td class='errorCase'><div class='testcase'>test_001: 拿到视频未点击钱的名称和视频点击后的名称</div></td>
     <td colspan='5' align='center'>
     <!--默认收起错误信息 -Findyou
-    <button id='btn_pt6_1' type="button"  class="btn btn-danger btn-xs collapsed" data-toggle="collapse" data-target='#div_pt6_1'>通过</button>
-    <div id='div_pt6_1' class="collapse">  -->
+    <button id='btn_ft5_1' type="button"  class="btn btn-danger btn-xs collapsed" data-toggle="collapse" data-target='#div_ft5_1'>错误</button>
+    <div id='div_ft5_1' class="collapse">  -->
     <!-- 默认展开错误信息 -Findyou -->
-    <button id='btn_pt6_1' type="button"  class="btn btn-danger btn-xs" data-toggle="collapse" data-target='#div_pt6_1'>通过</button>
-    <div id='div_pt6_1' class="collapse in" align="left">
+    <button id='btn_ft5_1' type="button"  class="btn btn-danger btn-xs" data-toggle="collapse" data-target='#div_ft5_1'>错误</button>
+    <div id='div_ft5_1' class="collapse in" align="left">
     <pre>
     
-pt6_1: C:\Users\Test\loadvideofile\selenium\selenium--Markhampionship2018.mp4
-智能制造
-越南语
+ft5_1: Traceback (most recent call last):
+  File "C:\Users\Test\ZHIYINCODE\TestSuit\f_viderotitle.py", line 20, in test_001
+    self.b.r.readxml("videotitle", "password"))
+  File "C:\Users\Test\ZHIYINCODE\Bussniss\Bussniss.py", line 215, in ShiShiredian
+    raise e
+  File "C:\Users\Test\ZHIYINCODE\Bussniss\Bussniss.py", line 189, in ShiShiredian
+    self.c.activeEvent(".//body/div[1]/section/descendant::a[4]")
+  File "C:\Users\Test\ZHIYINCODE\Commonlib\Commonlib.py", line 54, in activeEvent
+    self.dr.find_element("xpath", value).click()
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python35-32\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 978, in find_element
+    'value': value})['value']
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python35-32\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python35-32\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":".//body/div[1]/section/descendant::a[4]"}
+  (Session info: chrome=68.0.3440.75)
+  (Driver info: chromedriver=2.39.562718 (9a2698cba08cf5a471a29d30c8b3e12becabb0e9),platform=Windows NT 6.1.7601 SP1 x86_64)
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Test\ZHIYINCODE\TestSuit\f_viderotitle.py", line 27, in test_001
+    nowTime = time.strftime("%Y%m%d.%H.%M.%S")
+NameError: name 'time' is not defined
 
 
     </pre>
@@ -248,27 +338,108 @@ pt6_1: C:\Users\Test\loadvideofile\selenium\selenium--Markhampionship2018.mp4
     </td>
 </tr>
 
-<tr class='passClass warning'>
+<tr class='errorClass warning'>
+    <td>g_loadvideo.loadvideo: 上传视频</td>
+    <td class="text-center">1</td>
+    <td class="text-center">0</td>
+    <td class="text-center">0</td>
+    <td class="text-center">1</td>
+    <td class="text-center"><a href="javascript:showClassDetail('c6',1)" class="detail" id='c6'>详细</a></td>
+</tr>
+
+<tr id='ft6_1' class='none'>
+    <td class='errorCase'><div class='testcase'>test_001: 上传符合格式的视频</div></td>
+    <td colspan='5' align='center'>
+    <!--默认收起错误信息 -Findyou
+    <button id='btn_ft6_1' type="button"  class="btn btn-danger btn-xs collapsed" data-toggle="collapse" data-target='#div_ft6_1'>错误</button>
+    <div id='div_ft6_1' class="collapse">  -->
+    <!-- 默认展开错误信息 -Findyou -->
+    <button id='btn_ft6_1' type="button"  class="btn btn-danger btn-xs" data-toggle="collapse" data-target='#div_ft6_1'>错误</button>
+    <div id='div_ft6_1' class="collapse in" align="left">
+    <pre>
+    
+ft6_1: Traceback (most recent call last):
+  File "C:\Users\Test\ZHIYINCODE\TestSuit\g_loadvideo.py", line 21, in test_001
+    self.b.r.readxml("loadvideo","text")
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python35-32\lib\unittest\case.py", line 829, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python35-32\lib\unittest\case.py", line 822, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: None != '本地上传'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Test\ZHIYINCODE\TestSuit\g_loadvideo.py", line 24, in test_001
+    nowTime = time.strftime("%Y%m%d.%H.%M.%S")
+NameError: name 'time' is not defined
+
+
+    </pre>
+    </div>
+    </td>
+</tr>
+
+<tr class='errorClass warning'>
     <td>h_dowmkoadvideo.DownloadVideo: 随机下载视频，</td>
     <td class="text-center">1</td>
+    <td class="text-center">0</td>
+    <td class="text-center">0</td>
     <td class="text-center">1</td>
-    <td class="text-center">0</td>
-    <td class="text-center">0</td>
     <td class="text-center"><a href="javascript:showClassDetail('c7',1)" class="detail" id='c7'>详细</a></td>
 </tr>
 
-<tr id='pt7_1' class='hiddenRow'>
-    <td class='passCase'><div class='testcase'>test_001: 随机下载视频，遍历下载后所有的视频名称,</div></td>
-    <td colspan='5' align='center'><span class="label label-success success">通过</span></td>
+<tr id='ft7_1' class='none'>
+    <td class='errorCase'><div class='testcase'>test_001: 随机下载视频，遍历下载后所有的视频名称,</div></td>
+    <td colspan='5' align='center'>
+    <!--默认收起错误信息 -Findyou
+    <button id='btn_ft7_1' type="button"  class="btn btn-danger btn-xs collapsed" data-toggle="collapse" data-target='#div_ft7_1'>错误</button>
+    <div id='div_ft7_1' class="collapse">  -->
+    <!-- 默认展开错误信息 -Findyou -->
+    <button id='btn_ft7_1' type="button"  class="btn btn-danger btn-xs" data-toggle="collapse" data-target='#div_ft7_1'>错误</button>
+    <div id='div_ft7_1' class="collapse in" align="left">
+    <pre>
+    
+ft7_1: Traceback (most recent call last):
+  File "C:\Users\Test\ZHIYINCODE\TestSuit\h_dowmkoadvideo.py", line 24, in test_001
+    self.b.r.readxml("dowmloadvideo","paswd"))
+  File "C:\Users\Test\ZHIYINCODE\Bussniss\Bussniss.py", line 251, in DownloadVideo
+    raise e
+  File "C:\Users\Test\ZHIYINCODE\Bussniss\Bussniss.py", line 229, in DownloadVideo
+    self.c.activeEvent(filexpath)
+  File "C:\Users\Test\ZHIYINCODE\Commonlib\Commonlib.py", line 54, in activeEvent
+    self.dr.find_element("xpath", value).click()
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python35-32\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 978, in find_element
+    'value': value})['value']
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python35-32\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python35-32\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":".//section/div/descendant::a[6]"}
+  (Session info: chrome=68.0.3440.75)
+  (Driver info: chromedriver=2.39.562718 (9a2698cba08cf5a471a29d30c8b3e12becabb0e9),platform=Windows NT 6.1.7601 SP1 x86_64)
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Test\ZHIYINCODE\TestSuit\h_dowmkoadvideo.py", line 26, in test_001
+    nowTime = time.strftime("%Y%m%d.%H.%M.%S")
+NameError: name 'time' is not defined
+
+
+    </pre>
+    </div>
+    </td>
 </tr>
 
 <tr id='total_row' class="text-center active">
     <td>总计</td>
     <td>7</td>
-    <td>7</td>
+    <td>2</td>
     <td>0</td>
-    <td>0</td>
-    <td>通过率：100.00%</td>
+    <td>5</td>
+    <td>通过率：28.57%</td>
 </tr>
 </table>
 

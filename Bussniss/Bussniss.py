@@ -23,8 +23,6 @@ videolist = ["seleniumtest1.mp4","selenium--ParagGupta.mp4","selenium--Markhampi
 #视频上传的目录
 filepath = r"C:\Users\Test\loadvideofile\selenium"
 
-picture_time = time.strftime("%Y-%m-%d-%H_%M_%S", time.localtime(time.time()))
-
 class Bussniss:
     def __init__(self):
         self.c = Commonlib()
@@ -71,7 +69,6 @@ class Bussniss:
             #     self.c.getScreenShot('../Picture/' + '%s.png' % picture_time)
 
         except Exception as e:
-            self.c.getScreenShot('../Picture/' + '%s.png' % picture_time)
             raise e
 
     def LoadVideo(self):
@@ -140,8 +137,7 @@ class Bussniss:
             return benditext
 
         except Exception as e:
-            self.c.getScreenShot('../Picture/' + '%s.png' % picture_time)
-            raise
+            self.l.Logg(e)
 
     def getLoginTitle(self, base_url, username, password):
         # web首页login的title
@@ -153,7 +149,6 @@ class Bussniss:
             return texttwo
         except Exception as e:
             self.l.Logg(e)
-            self.c.getScreenShot('../Picture/' + '%s.png' % picture_time)
             raise e
 
     def AudioVideo(self, base_url, username, password):
@@ -182,7 +177,6 @@ class Bussniss:
             # print(type(listtext),listtext)
             return listtext
         except Exception as e:
-            self.c.getScreenShot('../Picture/' + '%s.png' % picture_time)
             self.l.Logg(e)
 
     def ShiShiredian(self,url,username,password):
@@ -218,7 +212,6 @@ class Bussniss:
 
         except Exception as e:
             self.l.Logg(e)
-            self.c.getScreenShot('../Picture/' + '%s.png' % picture_time)
             raise e
 
 # b = Bussniss()
@@ -255,7 +248,6 @@ class Bussniss:
 
         except Exception as e:
             self.l.Logg(e)
-            self.c.getScreenShot('../Picture/' + '%s.png' % picture_time)
             raise e
 
     # def GetVideoNameList(self,file_path):

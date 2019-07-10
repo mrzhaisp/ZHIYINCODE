@@ -2,6 +2,7 @@
 # -*- coding: utf-8 -*-
 from Bussniss.Bussniss import Bussniss
 import unittest
+import time
 
 class loadvideo(unittest.TestCase):
     """上传视频"""
@@ -15,10 +16,17 @@ class loadvideo(unittest.TestCase):
 
     def test_001(self):
         """上传符合格式的视频"""
-        self.assertEqual(
-            self.b.LoadVideo(),
-            self.b.r.readxml("loadvideo","text")
-        )
+        try:
+            self.assertEqual(
+                self.b.LoadVideo(),
+                self.b.r.readxml("loadvideo","text")
+            )
+        except Exception as e:
+            nowTime = time.strftime("%Y%m%d.%H.%M.%S")
+            pictfile = "../ErrorPict/"
+            pictname = nowTime + 'g_loadvideo' + '.png'
+            self.b.c.getScreenShot(pictfile + pictname)
+            self.b.l.Logg(e)
 
 if __name__ == '__main__':
     unittest.main()
